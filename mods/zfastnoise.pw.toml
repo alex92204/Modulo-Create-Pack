@@ -21,9 +21,9 @@ addonId = 'sml2FMaA'
 type = 'INCOMPATIBLE'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'KOHu7RCS'
+addonId = 'hasdd01q'
 type = 'INCOMPATIBLE'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'hasdd01q'
+addonId = 'KOHu7RCS'
 type = 'INCOMPATIBLE'
