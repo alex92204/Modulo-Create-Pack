@@ -17,11 +17,7 @@ mod-id = 'pYFUU6cq'
 version = 'gxO1XUMR'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'T9PomCSv'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'oWaK0Q19'
+addonId = 'YL57xq9U'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -29,9 +25,13 @@ addonId = 'JaCEZUhg'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'YL57xq9U'
+addonId = 'T9PomCSv'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'LNytGWDc'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'oWaK0Q19'
 type = 'OPTIONAL'

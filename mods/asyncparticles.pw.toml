@@ -1,20 +1,20 @@
-filename = 'AsyncParticles-21.1.3.0-beta.3+1.21.1.jar'
+filename = 'AsyncParticles-21.1.3.0-beta.1+1.21.1.jar'
 name = 'AsyncParticles'
-side = ''
+side = 'client'
 x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '21.1.3.0-beta.3'
+x-prismlauncher-version-number = '21.1.3.0-beta.1'
 
 [download]
-hash = '80b3702a30553ffd406e729f73df376f3d12d2c8cacc8b2761819fe74d4205698638d70dd564899bea3d666fe7a33b54671480f4028a7cad436c35ba637818f3'
+hash = 'def3f1a4e01b2d85d7b5956d818e1d443de22ebb9ea711a5696e59777bb5dd37207f5dfb47ed19276ab183724913570f4f8090c4c590388e34fa34638b461f18'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/c3onkd5k/versions/mpruWmh5/AsyncParticles-21.1.3.0-beta.3%2B1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/c3onkd5k/versions/E1zhBDRN/AsyncParticles-21.1.3.0-beta.1%2B1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'c3onkd5k'
-version = 'mpruWmh5'
+version = 'E1zhBDRN'
 
 [[x-prismlauncher-dependencies]]
 addonId = '9s6osm5g'

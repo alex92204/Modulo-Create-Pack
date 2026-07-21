@@ -17,9 +17,9 @@ mod-id = 'jCrJ4iGH'
 version = '7HFg7hFp'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'T9PomCSv'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
 addonId = 'oWaK0Q19'
 type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'T9PomCSv'
+type = 'REQUIRED'

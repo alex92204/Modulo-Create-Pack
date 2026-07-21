@@ -17,13 +17,13 @@ mod-id = '5srFLIaK'
 version = 'XK8POrWQ'
 
 [[x-prismlauncher-dependencies]]
+addonId = 'AANobbMI'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
 addonId = '1eAoo2KR'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'YL57xq9U'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'AANobbMI'
 type = 'OPTIONAL'
