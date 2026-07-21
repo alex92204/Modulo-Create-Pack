@@ -1,13 +1,18 @@
-name = "ResourcePackCached"
-filename = "rpc-1.2.5+1.20.5-1.21.4-neoforge.jar"
-side = "client"
+filename = 'rpc-1.2.5+1.20.5-1.21.4-neoforge.jar'
+name = 'ResourcePackCached'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.20.5', '1.20.6', '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.5'
 
 [download]
-url = "https://cdn.modrinth.com/data/d4phKsx2/versions/CXXq3WeQ/rpc-1.2.5%2B1.20.5-1.21.4-neoforge.jar"
-hash-format = "sha512"
-hash = "4d503ab2c4596f5f006a50d3125f336de2b5c7ea1851b8e02e52d5456ba60a4284681d19ea9ada0ffd11fb8418e582d5521b3ed9dfec132d80155bdd2d7928c0"
+hash = '4d503ab2c4596f5f006a50d3125f336de2b5c7ea1851b8e02e52d5456ba60a4284681d19ea9ada0ffd11fb8418e582d5521b3ed9dfec132d80155bdd2d7928c0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/d4phKsx2/versions/CXXq3WeQ/rpc-1.2.5%2B1.20.5-1.21.4-neoforge.jar'
 
-[update]
 [update.modrinth]
-mod-id = "d4phKsx2"
-version = "CXXq3WeQ"
+mod-id = 'd4phKsx2'
+version = 'CXXq3WeQ'

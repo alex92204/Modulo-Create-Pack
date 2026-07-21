@@ -1,6 +1,6 @@
-filename = 'SimpleRPC-4.1.3.jar'
-name = 'Simple Discord RPC'
-side = 'client'
+filename = 'SimpleDiscordLink-Universal-3.4.4.jar'
+name = 'Simple Discord Link'
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [
     '1.18.2',
@@ -9,7 +9,6 @@ x-prismlauncher-mc-versions = [
     '1.20.1',
     '1.21',
     '1.21.1',
-    '1.21.2',
     '1.21.3',
     '1.21.4',
     '1.21.5',
@@ -23,17 +22,17 @@ x-prismlauncher-mc-versions = [
     '26.2'
 ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '4.1.3'
+x-prismlauncher-version-number = '3.4.4'
 
 [download]
-hash = 'da691097ed0cce19bce067525335c2664c71e0b3b976064d2db031214f53bda70d4d41e75d306116709c13a07255967bc9e064a16e530ff78e514568ef723f81'
+hash = '9363675647582e83234706efa8e53a0b192cad819fc9b0f546cc24a08290d2c510fb70011110220d0cf5654aa32c9d2cda1a5e73e2e3acee6d863d5345dcfe43'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/ObXSoyrn/versions/OrDbBpH6/SimpleRPC-4.1.3.jar'
+url = 'https://cdn.modrinth.com/data/Sh0YauEf/versions/w2ngBoyZ/SimpleDiscordLink-Universal-3.4.4.jar'
 
 [update.modrinth]
-mod-id = 'ObXSoyrn'
-version = 'OrDbBpH6'
+mod-id = 'Sh0YauEf'
+version = 'w2ngBoyZ'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'Nn8Wasaq'

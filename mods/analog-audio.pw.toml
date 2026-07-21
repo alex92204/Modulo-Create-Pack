@@ -1,13 +1,45 @@
-name = "Analog Audio"
-filename = "Analog-Audio-0.1.0.jar"
-side = "both"
+filename = 'Analog-Audio-0.1.0.jar'
+name = 'Analog Audio'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.1.0+1.21.1'
 
 [download]
-url = "https://cdn.modrinth.com/data/iMAVG2nH/versions/UlajPCS1/Analog-Audio-0.1.0.jar"
-hash-format = "sha512"
-hash = "e282c1b9887e61863f04ad6eab8d7e1a8fe0e51cdbe3978197f9b875ca567d247cae7506d9b7e7f3f47170eac5142331459a36b8f045ff8215433f0360dde496"
+hash = 'e282c1b9887e61863f04ad6eab8d7e1a8fe0e51cdbe3978197f9b875ca567d247cae7506d9b7e7f3f47170eac5142331459a36b8f045ff8215433f0360dde496'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iMAVG2nH/versions/UlajPCS1/Analog-Audio-0.1.0.jar'
 
-[update]
 [update.modrinth]
-mod-id = "iMAVG2nH"
-version = "UlajPCS1"
+mod-id = 'iMAVG2nH'
+version = 'UlajPCS1'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'T9PomCSv'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'oWaK0Q19'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1bZhdhsH'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qyVF9oeo'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9eGKb6K1'
+type = 'OPTIONAL'

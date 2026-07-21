@@ -1,13 +1,33 @@
-name = "Separate Sable Render Distance (Aeronautics Addon)"
-filename = "SSRD-1.8.4-1.21.1.jar"
-side = "both"
+filename = 'SSRD-1.8.4-1.21.1.jar'
+name = 'Separate Sable Render Distance'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.8.4'
 
 [download]
-url = "https://cdn.modrinth.com/data/fJ183v3D/versions/yJZ1txdd/SSRD-1.8.4-1.21.1.jar"
-hash-format = "sha512"
-hash = "94fd5aabf36e86493d02f7214fa2dd31b281fd3c66d681ae963dbbc1e30c37159ad777ccbb6fa54cd43bf169a4234b77344d96910b71d4d5924a54c5fb44c265"
+hash = '94fd5aabf36e86493d02f7214fa2dd31b281fd3c66d681ae963dbbc1e30c37159ad777ccbb6fa54cd43bf169a4234b77344d96910b71d4d5924a54c5fb44c265'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fJ183v3D/versions/yJZ1txdd/SSRD-1.8.4-1.21.1.jar'
 
-[update]
 [update.modrinth]
-mod-id = "fJ183v3D"
-version = "yJZ1txdd"
+mod-id = 'fJ183v3D'
+version = 'yJZ1txdd'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'uCdwusMi'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'T9PomCSv'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fxxUqruK'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AANobbMI'
+type = 'REQUIRED'
