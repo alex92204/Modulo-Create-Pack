@@ -1,0 +1,10 @@
+{
+  "selector": "dndecor:cyan_cogwheel",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 0.5,
+    "sable:volume": 1.0
+  }
+}
+
+

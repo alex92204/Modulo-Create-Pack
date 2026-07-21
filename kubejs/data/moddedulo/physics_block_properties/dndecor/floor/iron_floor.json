@@ -1,0 +1,9 @@
+{
+  "selector": "dndecor:iron_floor",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 2,
+    "sable:volume": 0.5
+  }
+}
+

@@ -1,0 +1,9 @@
+{
+  "selector": "dndecor:netherite_floor",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 1.75,
+    "sable:volume": 0.625
+  }
+}
+

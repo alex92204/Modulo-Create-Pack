@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:overworld_caves",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "minecraft:deep_dark",
+        "lakes": false,
+        "features": false,
+        "layers": [
+          {
+            "height": 1,
+            "block": "minecraft:bedrock"
+          },
+          {
+            "height": 255,
+            "block": "minecraft:stone"
+          },
+          {
+            "height": 1,
+            "block": "minecraft:bedrock"
+          }
+        ],
+        "structure_overrides": []
+      }
+    }
+  }

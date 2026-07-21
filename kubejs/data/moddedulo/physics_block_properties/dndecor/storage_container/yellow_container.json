@@ -1,0 +1,8 @@
+{
+  "selector": "dndecor:yellow_container",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 4,
+    "sable:volume": 0.1
+  }
+}

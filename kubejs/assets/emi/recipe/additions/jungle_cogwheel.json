@@ -1,0 +1,6 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:jungle_planks",
+  "right": "#item:moddedulo:wooden_cogwheels",
+  "output": "item:createcasing:jungle_cogwheel"
+}

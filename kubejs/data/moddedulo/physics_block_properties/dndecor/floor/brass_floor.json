@@ -1,0 +1,9 @@
+{
+  "selector": "dndecor:brass_floor",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 2.25,
+    "sable:volume": 0.375
+  }
+}
+

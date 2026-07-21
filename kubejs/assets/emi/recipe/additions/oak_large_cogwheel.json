@@ -1,0 +1,6 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:oak_planks",
+  "right": "#item:moddedulo:large_wooden_cogwheels",
+  "output": "item:createcasing:oak_large_cogwheel"
+}

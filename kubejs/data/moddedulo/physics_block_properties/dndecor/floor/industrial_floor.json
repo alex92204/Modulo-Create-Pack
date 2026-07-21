@@ -1,0 +1,9 @@
+{
+  "selector": "dndecor:industrial_floor",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 1,
+    "sable:volume": 1
+  }
+}
+

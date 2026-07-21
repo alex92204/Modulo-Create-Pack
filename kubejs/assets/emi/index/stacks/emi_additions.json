@@ -1,0 +1,8 @@
+{
+    "added": [
+        {
+        "stack": "item:minecraft:lingering_potion{\"minecraft:attribute_modifiers\":{modifiers:[{amount:-100.0d,id:\"mcpaint:prevent_entity_interaction/mainhand\",operation:\"add_value\",slot:\"mainhand\",type:\"minecraft:player.entity_interaction_range\"},{amount:-100.0d,id:\"mcpaint:prevent_entity_interaction/offhand\",operation:\"add_value\",slot:\"offhand\",type:\"minecraft:player.entity_interaction_range\"}],show_in_tooltip:0b},\"minecraft:custom_data\":{eroxified2:{item:{throwable:{detect:1b,run_command:\"function mcpaint:item/paint_bucket/api/used\",stopsound:1b}}},mcpaint:{paint_bucket:1b}},\"minecraft:custom_model_data\":360000,\"minecraft:hide_additional_tooltip\":{},\"minecraft:item_name\":\u0027{\"translate\":\"item.mcpaint.paint_bucket\"}\u0027,\"minecraft:max_stack_size\":16,\"minecraft:potion_contents\":{custom_color:14770761}}",
+        "after": "item:minecraft:painting"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "block.complex_door.close": {
+    "sounds": [
+      {
+        "name": "kubejs:block/complex_door/close1"
+      }
+    ],
+    "subtitle": "Shut"
+  }
+}

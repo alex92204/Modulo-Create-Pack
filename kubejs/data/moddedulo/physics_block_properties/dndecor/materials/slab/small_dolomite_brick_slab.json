@@ -1,0 +1,9 @@
+{
+  "selector": "dndecor:small_dolomite_brick_slab",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 0.25,
+    "sable:volume": 1.0
+  }
+}
+

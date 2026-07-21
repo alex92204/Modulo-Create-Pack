@@ -1,0 +1,9 @@
+{
+  "selector": "dndecor:andesite_floor",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 1.25,
+    "sable:volume": 0.875
+  }
+}
+

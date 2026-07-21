@@ -1,0 +1,8 @@
+{
+  "selector": "createdeco:brass_boiler",
+  "priority": 3000,
+  "properties": {
+    "sable:mass": 1.69,
+    "sable:volume": 0.5
+  }
+}

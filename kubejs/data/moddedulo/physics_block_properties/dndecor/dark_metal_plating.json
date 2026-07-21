@@ -1,0 +1,8 @@
+{
+  "selector": "dndecor:dark_metal_plating",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 1.0,
+    "sable:volume": 0.5
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "logbegone": {
+    "phrases": [
+      "Disconnecting VANILLA connection attempt",
+      "Channels ",
+      "recipes loaded with the same id",
+      "Failed to apply tag physics properties. Unknown block",
+      "Exception serializing stack supplementaries:flag",
+      "aether",
+      "twilightforest",
+      "biomesoplenty",
+      "enderitemod",
+      "quark",
+      "alexsmobs",
+      "byg",
+      "natures_spirit",
+      "tfc",
+      "blue_skies",
+      "slicer",
+      "hexcasting",
+      "create_dd",
+      "mekanism",
+      "rose",
+      "slate",
+      "indigo",
+      "tan",
+      "maroon",
+      "ginger",
+      "aqua",
+      "verdant",
+      "coral",
+      "beige",
+      "forest",
+      "mint",
+      "amber",
+      "navy",
+      "olive",
+      "teal",
+      "Cloudiness changed, updating geometry",
+      "dndecor:blockstates/text_plate.json"
+    ],
+    "regex": [
+      "Disconnecting VANILLA connection attempt",
+      "Channels "
+    ]
+  }
+}

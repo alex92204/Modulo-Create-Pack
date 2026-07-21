@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "alexxunderscore",
+      "uniqueId": "2687f7b5-aa4a-4a99-877a-bc816a1fdfac"
+    },
+    "time": 1779192166852,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "D:\\Games\\Minecraft\\Minecraft Java\\MultiMC\\instances\\Aeronautics\\minecraft\\config\\spark\\heap-2026-05-19_13.02.40.hprof"
+    }
+  }
+]

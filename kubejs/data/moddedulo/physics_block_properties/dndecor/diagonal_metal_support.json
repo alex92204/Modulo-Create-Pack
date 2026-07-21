@@ -1,0 +1,8 @@
+{
+  "selector": "dndecor:diagonal_metal_support",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 0.8,
+    "sable:volume": 0.8
+  }
+}

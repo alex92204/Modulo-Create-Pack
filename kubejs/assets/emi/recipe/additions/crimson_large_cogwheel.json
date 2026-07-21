@@ -1,0 +1,6 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:crimson_planks",
+  "right": "#item:moddedulo:large_wooden_cogwheels",
+  "output": "item:createcasing:crimson_large_cogwheel"
+}

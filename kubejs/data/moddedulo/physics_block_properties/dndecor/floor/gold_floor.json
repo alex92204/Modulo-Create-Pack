@@ -1,0 +1,9 @@
+{
+  "selector": "dndecor:gold_floor",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 2.75,
+    "sable:volume": 0.125
+  }
+}
+

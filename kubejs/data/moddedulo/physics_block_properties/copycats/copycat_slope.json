@@ -1,0 +1,8 @@
+{
+  "selector": "copycats:copycat_slope",
+  "priority": 1000,
+
+  "properties": {
+    "sable:mass": 0.5
+  }
+}

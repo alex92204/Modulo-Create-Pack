@@ -1,0 +1,8 @@
+{
+  "selector": "dndecor:zinc_checker_tiles",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 1.5,
+    "sable:volume": 0.75
+  }
+}

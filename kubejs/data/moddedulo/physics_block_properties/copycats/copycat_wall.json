@@ -1,0 +1,7 @@
+{
+    "selector": "create_connected:copycat_wall",
+    "priority": 1000,
+    "properties": {
+        "sable:mass": 0.75
+    }
+}

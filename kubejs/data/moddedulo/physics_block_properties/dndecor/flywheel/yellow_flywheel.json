@@ -1,0 +1,9 @@
+{
+  "selector": "dndecor:yellow_flywheel",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 4.0,
+    "sable:volume": 0.55
+  }
+}
+

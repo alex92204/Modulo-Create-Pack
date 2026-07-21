@@ -1,0 +1,19 @@
+{
+    "selector": "copycats:copycat_vertical_half_layer",
+    "priority": 1000,
+
+    "properties": {
+        "sable:mass": 0.125
+    },
+
+    "overrides": {
+        "layers=3": { "sable:mass": 0.25 },
+        "layers=4": { "sable:mass": 0.25 },
+
+        "layers=5": { "sable:mass": 0.50 },
+        "layers=6": { "sable:mass": 0.50 },
+
+        "layers=7": { "sable:mass": 0.75 },
+        "layers=8": { "sable:mass": 0.75 }
+    }
+}

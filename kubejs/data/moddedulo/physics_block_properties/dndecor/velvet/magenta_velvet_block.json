@@ -1,0 +1,9 @@
+{
+  "selector": "dndecor:magenta_velvet_block",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 0.5,
+    "sable:volume": 0.75
+  }
+}
+

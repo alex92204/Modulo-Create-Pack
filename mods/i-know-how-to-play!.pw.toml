@@ -1,0 +1,13 @@
+name = "I Know How To Play!"
+filename = "iknowhowtoplay-2.0.0+NeoForge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/bzsen4li/versions/3y8pRAUY/iknowhowtoplay-2.0.0%2BNeoForge.jar"
+hash-format = "sha512"
+hash = "2fe0216ab633068332af5795e85addc601eb8f0303bd29d6d69608ca7136170d12d5e1e17deaf1a11f401db68803840c8b9f0806e7a7b3a24120f8a3d5159519"
+
+[update]
+[update.modrinth]
+mod-id = "bzsen4li"
+version = "3y8pRAUY"

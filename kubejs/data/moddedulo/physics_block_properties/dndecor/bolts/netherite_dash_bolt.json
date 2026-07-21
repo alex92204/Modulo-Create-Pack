@@ -1,0 +1,9 @@
+{
+  "selector": "dndecor:netherite_dash_bolt",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 0.15,
+    "sable:volume": 0.03
+  }
+}
+

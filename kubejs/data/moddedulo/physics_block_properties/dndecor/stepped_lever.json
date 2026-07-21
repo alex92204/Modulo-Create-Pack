@@ -1,0 +1,8 @@
+{
+  "selector": "dndecor:stepped_lever",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 0.1,
+    "sable:volume": 1.0
+  }
+}

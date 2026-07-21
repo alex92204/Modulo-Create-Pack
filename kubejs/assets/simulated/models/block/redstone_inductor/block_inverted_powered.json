@@ -1,0 +1,76 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"3": "simulated:block/redstone_inductor/spool",
+		"4": "create:block/diodes/brass_diode_base",
+		"particle": "create:block/diodes/brass_diode_base",
+		"top": "simulated:block/redstone_inductor/block_powered",
+		"torch": "block/redstone_torch"
+	},
+	"elements": [
+		{
+			"name": "circuit",
+			"from": [0, 0, 0],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [0, 14, 16, 16], "texture": "#4", "cullface": "north"},
+				"east": {"uv": [0, 0, 2, 16], "rotation": 270, "texture": "#4", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 2], "rotation": 180, "texture": "#4", "cullface": "south"},
+				"west": {"uv": [14, 0, 16, 16], "rotation": 90, "texture": "#4", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#4", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Diode",
+			"from": [4, 2, 5],
+			"to": [12, 6, 11],
+			"faces": {
+				"north": {"uv": [12, 16, 16, 8], "rotation": 90, "texture": "#3"},
+				"east": {"uv": [6, 4, 12, 8], "texture": "#3"},
+				"south": {"uv": [12, 8, 16, 16], "rotation": 90, "texture": "#3"},
+				"west": {"uv": [6, 4, 12, 8], "texture": "#3"},
+				"up": {"uv": [6, 8, 12, 16], "rotation": 90, "texture": "#3"}
+			}
+		},
+		{
+			"from": [9.5, 4.5, 12.5],
+			"to": [6.5, 7.5, 15.5],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 11]},
+			"faces": {
+				"north": {"uv": [6, 5, 7, 6], "texture": "#torch"},
+				"east": {"uv": [6, 5, 7, 6], "texture": "#torch"},
+				"south": {"uv": [6, 5, 7, 6], "texture": "#torch"},
+				"west": {"uv": [6, 5, 7, 6], "texture": "#torch"},
+				"up": {"uv": [6, 5, 7, 6], "texture": "#torch"},
+				"down": {"uv": [6, 5, 7, 6], "texture": "#torch"}
+			}
+		},
+		{
+			"from": [7, 2, 13],
+			"to": [9, 7, 15],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 11]},
+			"faces": {
+				"north": {"uv": [7, 6, 9, 11], "texture": "#torch"},
+				"east": {"uv": [7, 6, 9, 11], "texture": "#torch"},
+				"south": {"uv": [7, 6, 9, 11], "texture": "#torch"},
+				"west": {"uv": [7, 6, 9, 11], "texture": "#torch"},
+				"up": {"uv": [7, 6, 9, 8], "texture": "#torch"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		1,
+		{
+			"name": "Torch",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [2, 3]
+		}
+	]
+}

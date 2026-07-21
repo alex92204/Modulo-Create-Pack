@@ -1,0 +1,8 @@
+{
+  "selector": "dndecor:ornate_iron_glass_pane",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 0.25,
+    "sable:volume": 1.0
+  }
+}

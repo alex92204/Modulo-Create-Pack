@@ -1,0 +1,9 @@
+{
+  "selector": "dndecor:polished_cut_gabbro_stairs",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 0.5,
+    "sable:volume": 1.0
+  }
+}
+

@@ -1,0 +1,8 @@
+{
+  "selector": "createdeco:netherite_catwalk",
+  "priority": 3000,
+  "properties": {
+    "sable:mass": 0.88,
+    "sable:volume": 0.35
+  }
+}

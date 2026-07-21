@@ -1,0 +1,9 @@
+{
+  "selector": "dndecor:andesite_frontlight",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 0.35,
+    "sable:volume": 0.9
+  }
+}
+

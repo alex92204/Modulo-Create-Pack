@@ -1,0 +1,9 @@
+{
+  "selector": "dndecor:blackstone_millstone",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 1.0,
+    "sable:volume": 0.85
+  }
+}
+

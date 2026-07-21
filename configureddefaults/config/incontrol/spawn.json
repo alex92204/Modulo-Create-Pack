@@ -1,0 +1,24 @@
+[
+  {
+    "dimension": "moddedulo:creative",
+    "when": "onjoin",
+    "spawntype": ["mob_summoned", "spawn_egg"],
+    "result": "default"
+  },
+  {
+    "dimension": "moddedulo:creative",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "moddedulo:complex",
+    "when": "onjoin",
+    "spawntype": ["mob_summoned", "spawn_egg"],
+    "result": "default"
+  },
+  {
+    "dimension": "moddedulo:complex",
+    "when": "onjoin",
+    "result": "deny"
+  }
+]

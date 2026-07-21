@@ -1,0 +1,8 @@
+{
+  "selector": "dndecor:waxed_copper_floor",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 2.5,
+    "sable:volume": 0.25
+  }
+}
