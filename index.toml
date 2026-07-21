@@ -3570,7 +3570,7 @@ hash = "ed3b5d774c416c6a53ae2f1ced1ad6911efe8072159daac419d2014356348a6b"
 
 [[files]]
 file = "kubejs/assets/minecraft/texts/splashes.txt"
-hash = "a58890e198179d911b71e08a345700490e9261e06ba013676109e7c4da61cde6"
+hash = "5bbfb8f731d15a3fc1103a5a530930e62932fe26ec3a3482c24eaac6fd369836"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/block/redstone_torch.png"
@@ -4166,7 +4166,7 @@ hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "eef3f9e6b8bbfded582a4b7a8c21e43b3cd5f9dfa57f760065a522584bce8792"
+hash = "0b7f9b81a8302163798f885a581df668b72d92f8ea91640f8e063cacdf426a23"
 
 [[files]]
 file = "kubejs/config/packicon.png"
