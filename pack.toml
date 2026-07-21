@@ -1,0 +1,13 @@
+name = "Modulo Create"
+author = "alexxunderscore"
+version = "2.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "e7f3cd63d72560edd29d5bb854e13bae5046f66bdcfac50da12baf7a0abc740a"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.236"
