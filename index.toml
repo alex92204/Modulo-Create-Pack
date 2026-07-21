@@ -94,7 +94,7 @@ hash = "4c344560b538644b857e90879ce372ed651844e9ff9f25416e3b3dcba8827320"
 
 [[files]]
 file = "configureddefaults/config/asyncparticles/asyncparticles-mixin.properties"
-hash = "6f0cbe8fd0675479ddb9aacbe6a4cfd1fa409658dc489529b1a8f5b699023764"
+hash = "ed6126353af57e09becebb1ff76944d4b02b0ac5fdf95c6139bd33e2f21b4729"
 
 [[files]]
 file = "configureddefaults/config/asyncparticles/asyncparticles.json"
@@ -494,7 +494,7 @@ hash = "3741bb54a4535fb5a00fb0ee1f4386f3dd17834aebdf9e89c21fcd3307109709"
 
 [[files]]
 file = "configureddefaults/config/jade/jade.json"
-hash = "06117e890ccc5f897850b82aa703de62e96531200faeaf568473715bdc981001"
+hash = "7af08fadef0c1834f52cb60c366e59da85bbe4967f820dd0de4da75a7dc28eca"
 
 [[files]]
 file = "configureddefaults/config/jade/plugins.json"
@@ -515,6 +515,10 @@ hash = "b0260ab083cd565f091054b4bc93f39c69a578bd6a851306992a785b8eaed19d"
 [[files]]
 file = "configureddefaults/config/lithium.properties"
 hash = "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be"
+
+[[files]]
+file = "configureddefaults/config/locatorbar-server.toml"
+hash = "c78ac0b35732aa905a9060e0d19d8824036496d0ea76bf02736b39cf20d2aae1"
 
 [[files]]
 file = "configureddefaults/config/locatorbar.json"
@@ -870,7 +874,7 @@ hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
 file = "configureddefaults/config/zfastnoise.mixin.properties"
-hash = "6fa6883eafe3f50843a2b9276eedde6a92ccae57bcba1d02774d29295f047335"
+hash = "503965e9f46f377a2e7f177510d98ec5891242f56ae78424f5797fed2f6c26f1"
 
 [[files]]
 file = "configureddefaults/emi.json"

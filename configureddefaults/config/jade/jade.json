@@ -16,7 +16,7 @@
     "enableTextToSpeech": false,
     "ttsMode": "PRESS",
     "previewOverlay": true,
-    "displayTooltip": false,
+    "displayTooltip": true,
     "displayBlocks": true,
     "displayEntities": true
   },

@@ -1,0 +1,26 @@
+# Locator Bar server-enforced settings
+version = 2
+# You can choose between "reworked" and "classic" style or just disable it with "off".
+style = "classic"
+# Show coordinates/days under locator bar. Works only on Reworked style.
+showCoordinates = false
+showDays = false
+# Show world directions on locator bar.
+showWorldDirections = false
+# Player marker style ("heads", "dots", or "off") and choose max visible players on it.
+playerMarkerType = "heads"
+maxVisiblePlayers = 16
+# Player markers distance behaviour configuration. Fade start and fade to min is close range
+# when player marker opacity / size decreases down to min alpha value in percent / small dot. To disable this behaviour
+# set min alpha value to 100.0.
+# Marker hide distance is the distance when player marker completely disappears from locator bar.
+# You can set it to your own value or set "inf" to disable this behaviour.
+playerMarkerFadeStartDistance = 150.0
+playerMarkerFadeToMinDistance = 350.0
+playerMarkerHideDistance = inf
+playerMarkerMinAlphaPercent = 40.0
+# Show waypoints on locator bar and choose max visible waypoints on it.
+showWaypoints = false
+maxVisibleWaypoints = 16
+# Show death waypoint on locator bar.
+showDeathWaypoint = false
