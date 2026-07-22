@@ -110,7 +110,7 @@ flavors = "modpack"
 flavors = "modpack"
 [metafile.extreme_sound_muffler]
 flavors = "modpack"
-[metafile.i-know-how-to-play!]
+[metafile."mods/i-know-how-to-play!.pw.toml"]
 flavors = "modpack"
 [metafile.seamless-loading-screen]
 flavors = "modpack"
