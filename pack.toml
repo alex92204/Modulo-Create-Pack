@@ -6,11 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-<<<<<<< Updated upstream
-hash = "a09be3590b6115a18b76444a8eef888f54355c97c90a7c7b27d42159a041c021"
-=======
-hash = "ec277fb6650e167cfc3c51c0d4c8602000d9f979b03e4b894a37da8497c35162"
->>>>>>> Stashed changes
+hash = "972718c629232446ee2340331aa9b35204d90641d17ad9fb490825c6f50d9da8"
 
 [versions]
 minecraft = "1.21.1"
