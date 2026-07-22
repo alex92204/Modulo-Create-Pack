@@ -21,6 +21,10 @@ addonId = 'umyGl7zF'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
 addonId = 'GmjmRQ0A'
 type = 'OPTIONAL'
 version = 'cV2GZBSJ'
@@ -29,7 +33,3 @@ version = 'cV2GZBSJ'
 addonId = 'LNytGWDc'
 type = 'REQUIRED'
 version = 'UjX6dr61'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'u6dRKJwZ'
-type = 'OPTIONAL'

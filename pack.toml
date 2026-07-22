@@ -6,8 +6,13 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
+<<<<<<< Updated upstream
 hash = "a09be3590b6115a18b76444a8eef888f54355c97c90a7c7b27d42159a041c021"
+=======
+hash = "ec277fb6650e167cfc3c51c0d4c8602000d9f979b03e4b894a37da8497c35162"
+>>>>>>> Stashed changes
 
 [versions]
 minecraft = "1.21.1"
 neoforge = "21.1.236"
+unsup = "1.2.7"

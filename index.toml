@@ -7111,7 +7111,11 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
+<<<<<<< Updated upstream
 hash = "0a59f4ae786f58b88a44d4ddf3361182ab7092dc27e9e895eaae069003047c86"
+=======
+hash = "4883975b45e396f4819b6b7f805e423b887a48ed0deec3cdbc54729c0e2be67b"
+>>>>>>> Stashed changes
 metafile = true
 
 [[files]]
@@ -7122,6 +7126,7 @@ metafile = true
 [[files]]
 file = "mods/better-advancements.pw.toml"
 hash = "6028884732652d13ec993d6f06ab2bc0f03134105648c1370e1ace51e7647b8f"
+<<<<<<< Updated upstream
 metafile = true
 
 [[files]]
@@ -7137,6 +7142,28 @@ metafile = true
 [[files]]
 file = "mods/blueprint.pw.toml"
 hash = "97f145f04f2f7f673ecdaa5c9dcd2aefe09ae79ce4bd95617033a6957d32ae74"
+=======
+metafile = true
+
+[[files]]
+file = "mods/better-clouds.pw.toml"
+hash = "4bcaa0359543e6ecc6c5c6e2ca5c6af964870dd0926fe4f3131d5164cacdcafa"
+metafile = true
+
+[[files]]
+file = "mods/bigsignwriter.pw.toml"
+hash = "cd5e19710aeabb884b90e3bac665c09758861bdf8197216da66b0fd259f6c1c3"
+metafile = true
+
+[[files]]
+file = "mods/blueprint.pw.toml"
+hash = "97f145f04f2f7f673ecdaa5c9dcd2aefe09ae79ce4bd95617033a6957d32ae74"
+metafile = true
+
+[[files]]
+file = "mods/c2me-neoforge.pw.toml"
+hash = "95aed1aa1d604fb56cc1e5af188f9eebb61c992ae391c436af168b47b7598214"
+>>>>>>> Stashed changes
 metafile = true
 
 [[files]]
@@ -7220,6 +7247,11 @@ hash = "f87e806b3473ec05f89d555ef3fc1334216e4d8b2d1649f75a4c0dbcfe99581b"
 metafile = true
 
 [[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "cc3f1377dafe63d02be4acd06f434634f27a7acc6072636e88863867cf40bad6"
+metafile = true
+
+[[files]]
 file = "mods/craterlib.pw.toml"
 hash = "5001534f69014033630f1799610a95265231be1b599834b08069f124c16fad8d"
 metafile = true
@@ -7246,7 +7278,11 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
+<<<<<<< Updated upstream
 hash = "c1414e5fe21c383183672ca5f4c0701931a0fd439cce579610c258881d8f4516"
+=======
+hash = "44d915c8238b27f73741dc12114d37c8562f78c3e2cd4f18d2e92767bb6ab09c"
+>>>>>>> Stashed changes
 metafile = true
 
 [[files]]
@@ -7537,11 +7573,34 @@ metafile = true
 [[files]]
 file = "mods/no-chat-restrictions.pw.toml"
 hash = "b187e13373ac326d9c40d15b4d1cdfcec984ef5c5f3e2f5ed0d4730af896efb9"
+<<<<<<< Updated upstream
 metafile = true
 
 [[files]]
 file = "mods/notenoughrecipebook.pw.toml"
 hash = "2655d006ff3f6fad12dd3cd5791b77ff9ea1073194f784ee17c6e6f708e2809a"
+metafile = true
+
+[[files]]
+file = "mods/ok-zoomer.pw.toml"
+hash = "d6b2da89f3d8f32da3735cf9e9ea9caa0ec2ca61a5f5f44b3b285c0fc798871c"
+=======
+metafile = true
+
+[[files]]
+file = "mods/notenoughrecipebook.pw.toml"
+hash = "8dc52c2517aa437dec2e4edf90e90b96df5d2d486083f1ccb8ed753e1ac2ac8d"
+metafile = true
+
+[[files]]
+file = "mods/obscuras-panoramica.pw.toml"
+hash = "1c5b74bc01c9496be6fb8659cbdc6cce45dd81ada09e834d6aeda5150e420c09"
+metafile = true
+
+[[files]]
+file = "mods/observable.pw.toml"
+hash = "b8fa8b676c31f930ce8fc6f444a009ce29adc957afe992f3cf8f7caa9a94aaa7"
+>>>>>>> Stashed changes
 metafile = true
 
 [[files]]
@@ -7580,6 +7639,11 @@ hash = "3c2315f14ba46fb06ca6d7cfa6fe2ea41d94be67566de843f31f7cf657e87228"
 metafile = true
 
 [[files]]
+file = "mods/probejs.pw.toml"
+hash = "f07c996b06866bf0b60c69dd7747fb14f498f580acce7b3f5a0a6a3cadf85a35"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "1dfd8edb2bc1e383bd7010a8d8897f1099bbb9ff3f2cf46f79908af478d4dd37"
 metafile = true
@@ -7592,6 +7656,16 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "8cddef5f1bdb6ce4e2082b26628d068725ef8dab2eb03ed15905fe8719d41d90"
+metafile = true
+
+[[files]]
+<<<<<<< Updated upstream
+file = "mods/resourcepackcached.pw.toml"
+hash = "dad1a62ccb4ed58b073aabe496a07363ac804c770a6fba1b3fb1dcb1f6c78b1b"
+=======
+file = "mods/reliable-replacer.pw.toml"
+hash = "29bb8eae8e4cf5fc5674bb28d883c1f7644075f796824f27c69b144321c3e23b"
+>>>>>>> Stashed changes
 metafile = true
 
 [[files]]
@@ -7617,6 +7691,16 @@ metafile = true
 [[files]]
 file = "mods/scholar.pw.toml"
 hash = "262e883afec42b67c8bba2716e72d0f771890303261ab2ddc9fee2dd1c6da47f"
+metafile = true
+
+[[files]]
+file = "mods/seamless-loading-screen.pw.toml"
+hash = "ce58374a1647e74203002b1ddd95784778c96b6db360f4c73e8c6c05ffee7173"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "4fc21e7bac0dfd2d036a41139a80ec546c60881cb99252a86189ad914e2dadd6"
 metafile = true
 
 [[files]]
