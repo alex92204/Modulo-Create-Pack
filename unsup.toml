@@ -1,0 +1,25 @@
+[flavor_groups.admin]
+name = "Admin Mods"
+description = "NOT Recommended to Install!\nMods I use for profiling and configuring"
+side = "both"
+[[flavor_groups.admin.choices]]
+id = "no_admin_mods"
+name = "Skip"
+description = "Do not install Admin mods."
+[[flavor_groups.admin.choices]]
+id = "admin"
+name = "Install"
+description = "Install Admin mods."
+
+[metafile.crash-assistant]
+flavors = "admin"
+[metafile.observable]
+flavors = "admin"
+[metafile.obscuras-panoramica]
+flavors = "admin"
+[metafile.sdlink]
+flavors = "admin"
+[metafile.reliable-replacer]
+flavors = "admin"
+[metafile.probejs]
+flavors = "admin"
