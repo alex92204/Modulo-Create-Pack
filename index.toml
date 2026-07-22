@@ -881,6 +881,10 @@ file = "configureddefaults/emi.json"
 hash = "3f8953413940449b4e1d5cfbed795ee02123e8723658aa666e98f05457c4a159"
 
 [[files]]
+file = "configureddefaults/options.txt"
+hash = "a956a1096669f8144625f5325d763dae586ca36bf5ce20ccf8471b55d848103f"
+
+[[files]]
 file = "gitattributes"
 hash = "f1c49afdbf5c184940b9d1b0dcb6e070c8ca915a36d6c2b7f5a4c641e1080aea"
 
@@ -4167,10 +4171,6 @@ hash = "36f3d6e096f479f662533cadfad4d03d9aebcfc21937f95b1d3995f6b0e2cb2e"
 [[files]]
 file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
-
-[[files]]
-file = "kubejs/config/defaultoptions.txt"
-hash = "896323d4f4e1f19853e1111cc66efc1f63c47cabb727c81e944f6ac8ac422a3e"
 
 [[files]]
 file = "kubejs/config/packicon.png"
