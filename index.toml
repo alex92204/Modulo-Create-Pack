@@ -3574,7 +3574,7 @@ hash = "ed3b5d774c416c6a53ae2f1ced1ad6911efe8072159daac419d2014356348a6b"
 
 [[files]]
 file = "kubejs/assets/minecraft/texts/splashes.txt"
-hash = "5bbfb8f731d15a3fc1103a5a530930e62932fe26ec3a3482c24eaac6fd369836"
+hash = "ee268783816d7831d29d4e34737982ed6e575d7a381675a94e575a437b6ce18e"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/block/redstone_torch.png"
@@ -7111,7 +7111,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "4883975b45e396f4819b6b7f805e423b887a48ed0deec3cdbc54729c0e2be67b"
+hash = "b5c17f088a57739db55d3c457ca2fae52e074e13400e7278a7f0767be167fb6e"
 metafile = true
 
 [[files]]
@@ -7171,7 +7171,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "214cd9c88faecb5cfa07d8ba3d7de4884b1478d4401431d234c172bb43c3fca1"
+hash = "97842930c1de76bf8fdacd355562e19cb2eddbe38d369285d2ca1e1ff9d2415f"
 metafile = true
 
 [[files]]
