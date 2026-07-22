@@ -7111,7 +7111,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "1beff7ae528bdffe17d1734b05440fb79d75806b94a36dbe310b8eb1fd92a22c"
+hash = "4883975b45e396f4819b6b7f805e423b887a48ed0deec3cdbc54729c0e2be67b"
 metafile = true
 
 [[files]]
@@ -7256,7 +7256,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "d684000b10c7e7a75581cd322ab84ffce34bbcf22cd9783135186d2508f74a60"
+hash = "44d915c8238b27f73741dc12114d37c8562f78c3e2cd4f18d2e92767bb6ab09c"
 metafile = true
 
 [[files]]
@@ -7470,11 +7470,6 @@ hash = "ed77efd1e63eafec6bbeea6e53339226f62569c203144efcb7d05c406fdbcf0a"
 metafile = true
 
 [[files]]
-file = "mods/kotlin-lang-forge.pw.toml"
-hash = "ae2512ad1ef2a40bf4ff17954c6c2322c98b667020b181667b3f2420d9e2f685"
-metafile = true
-
-[[files]]
 file = "mods/krypton-fnp.pw.toml"
 hash = "ced023dc6347aae8294d161f42e86d1269c3f20c5086e1924ff94a60daf6f15e"
 metafile = true
@@ -7551,12 +7546,17 @@ metafile = true
 
 [[files]]
 file = "mods/notenoughrecipebook.pw.toml"
-hash = "2655d006ff3f6fad12dd3cd5791b77ff9ea1073194f784ee17c6e6f708e2809a"
+hash = "8dc52c2517aa437dec2e4edf90e90b96df5d2d486083f1ccb8ed753e1ac2ac8d"
 metafile = true
 
 [[files]]
 file = "mods/obscuras-panoramica.pw.toml"
 hash = "1c5b74bc01c9496be6fb8659cbdc6cce45dd81ada09e834d6aeda5150e420c09"
+metafile = true
+
+[[files]]
+file = "mods/observable.pw.toml"
+hash = "b8fa8b676c31f930ce8fc6f444a009ce29adc957afe992f3cf8f7caa9a94aaa7"
 metafile = true
 
 [[files]]
@@ -7615,6 +7615,11 @@ hash = "8cddef5f1bdb6ce4e2082b26628d068725ef8dab2eb03ed15905fe8719d41d90"
 metafile = true
 
 [[files]]
+file = "mods/reliable-replacer.pw.toml"
+hash = "29bb8eae8e4cf5fc5674bb28d883c1f7644075f796824f27c69b144321c3e23b"
+metafile = true
+
+[[files]]
 file = "mods/resourcepackcached.pw.toml"
 hash = "dad1a62ccb4ed58b073aabe496a07363ac804c770a6fba1b3fb1dcb1f6c78b1b"
 metafile = true
@@ -7637,6 +7642,11 @@ metafile = true
 [[files]]
 file = "mods/scholar.pw.toml"
 hash = "262e883afec42b67c8bba2716e72d0f771890303261ab2ddc9fee2dd1c6da47f"
+metafile = true
+
+[[files]]
+file = "mods/sdlink.pw.toml"
+hash = "2b09a3a83ce3f87d9f9df32b8b3507b53f750b02afd1fbfc239abd48f7dcd113"
 metafile = true
 
 [[files]]
