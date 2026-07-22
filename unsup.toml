@@ -28,7 +28,7 @@ description = "Install Admin mods."
 [flavor_groups.server]
 name = "[IGNORE] Server Mods Only"
 description = "Only for server!"
-side = "client"
+side = "both"
 [[flavor_groups.server.choices]]
 id = "modpack"
 name = "[REQUIRED] Skip"
@@ -52,23 +52,23 @@ flavors = "shaders"
 [metafile.crash-assistant]
 flavors = "admin"
 [metafile.observable]
-flavors = "admin"
+flavors = ["admin", "server"]
 [metafile.obscuras-panoramica]
 flavors = "admin"
 [metafile.sdlink]
-flavors = "admin"
+flavors = ["admin", "server"]
 [metafile.reliable-replacer]
-flavors = "admin"
+flavors = ["admin", "server"]
 [metafile.probejs]
 flavors = "admin"
 [metafile.monkeylib538]
-flavors = "admin"
+flavors = ["admin", "server"]
 [metafile.mesh-lib]
-flavors = "admin"
+flavors = ["admin", "server"]
 [metafile.git-pack-manager]
-flavors = "admin"
+flavors = ["admin", "server"]
 [metafile.adventure-platform-mod]
-flavors = "admin"
+flavors = ["admin", "server"]
 
 [metafile.controlling]
 flavors = "modpack"
