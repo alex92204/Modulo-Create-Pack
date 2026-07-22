@@ -1,0 +1,18 @@
+filename = 'adventure-platform-neoforge-6.0.1.jar'
+name = 'adventure-platform-mod'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '6.0.1'
+
+[download]
+hash = 'fc7af2ba07c127bee142b5f1145babaa5f82bf58d2c51916b16e5a50b8919f301126943ac8586b1d3746da7af9ebd84b0a6286a4d69a57527e89bd4d04ba9a22'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/O5VsIpQY/versions/MnP4WyqC/adventure-platform-neoforge-6.0.1.jar'
+
+[update.modrinth]
+mod-id = 'O5VsIpQY'
+version = 'MnP4WyqC'

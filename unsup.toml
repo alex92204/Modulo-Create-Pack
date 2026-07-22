@@ -61,6 +61,14 @@ flavors = "admin"
 flavors = "admin"
 [metafile.probejs]
 flavors = "admin"
+[metafile.monkeylib538]
+flavors = "admin"
+[metafile.mesh-lib]
+flavors = "admin"
+[metafile.git-pack-manager]
+flavors = "admin"
+[metafile.adventure-platform-mod]
+flavors = "admin"
 
 [metafile.controlling]
 flavors = "modpack"

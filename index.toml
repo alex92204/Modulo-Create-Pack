@@ -7075,6 +7075,11 @@ hash = "913d11057f9ca19ff2fdb19954315f52918d5b806a9eed9a6b11ad9c952e3f0c"
 metafile = true
 
 [[files]]
+file = "mods/adventure-platform-mod.pw.toml"
+hash = "2b1ac4221fbac7b00e13b1a912a0053f0ba522d85dc4999fbec4244aba3c468b"
+metafile = true
+
+[[files]]
 file = "mods/amendments.pw.toml"
 hash = "ebc156d2d0ad331601d4a2b26bdc081fea611f34030cfdc6624f6d8b9274263f"
 metafile = true
@@ -7445,6 +7450,11 @@ hash = "320810701022098a72aec7b907adba156bd2615aeb0c30576d7f46c1abe0325c"
 metafile = true
 
 [[files]]
+file = "mods/git-pack-manager.pw.toml"
+hash = "b1d678d44909428fe337e153a04ae78a2c6650bf9aa5b7df1ac40b7b17f86fc9"
+metafile = true
+
+[[files]]
 file = "mods/horseman.pw.toml"
 hash = "3bfe0219e5397dd487bff066404bac57765f33ff8fb25b1bba02d1b77f5383f7"
 metafile = true
@@ -7530,8 +7540,18 @@ hash = "1117905af6ab0e2a3740c363a6f8735cbdd455f131f99f5822c1c0659af4851e"
 metafile = true
 
 [[files]]
+file = "mods/mesh-lib.pw.toml"
+hash = "d1e1ea90eae906700f9e8eb30a52395ccb8d5aa2b35fb2aa98c461e6d7ac2866"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "c51fc43b27fc299bf445ffc61eb9702fb4759b38fc023ee0a4d67da4a6c183ec"
+metafile = true
+
+[[files]]
+file = "mods/monkeylib538.pw.toml"
+hash = "dd6ccb79d9a339c837bb9723220487f2fa67aad4f4b3fd1fc32581bc841b63bb"
 metafile = true
 
 [[files]]
@@ -7858,4 +7878,4 @@ metafile = true
 
 [[files]]
 file = "unsup.toml"
-hash = "b4094a54fdb630dd836e886752e0ccdeeb25232a4181461f636ddb2a67703691"
+hash = "4b24e33488eec840a8929e1c25c7def75461f3bee1b1624c7ca8963f2267bef3"

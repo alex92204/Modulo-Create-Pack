@@ -1,0 +1,29 @@
+filename = 'git-pack-manager-neoforge-1.21.1-5.1.0+neoforge+1.21.1.jar'
+name = 'Git Pack Manager'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8', '1.21.9', '1.21.10', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '5.1.0+neoforge+1.21.1'
+
+[download]
+hash = 'e655c51155288585a30548b685cb521b31ee27c878788bcf9798c8558929143694a6c59a80a7fe1f1f2ec8bd5b2083ed94173c3bbe26f6c866a1aa91cebfc938'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PV38O99l/versions/9QfmFxfA/git-pack-manager-neoforge-1.21.1-5.1.0%2Bneoforge%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'PV38O99l'
+version = '9QfmFxfA'
+
+[[x-prismlauncher-dependencies]]
+addonId = '6HncyfPB'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'gYap5A8T'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'O5VsIpQY'
+type = 'REQUIRED'

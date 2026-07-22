@@ -1,0 +1,25 @@
+filename = 'mesh-lib-neoforge-1.21.1-2.0.2+neoforge+1.21.1.jar'
+name = 'MESH Lib'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8', '1.21.9', '1.21.10', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.2+neoforge+1.21.1'
+
+[download]
+hash = '2f36b2f820ad755b3d39a036027655614a0f86dfed20e126736c4d2b1e50f09d1aba80568778b9bd261a5b3c05253ad5b8bc10c121f78b665a7c4d5e2bd7dea1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6HncyfPB/versions/42c1WR1g/mesh-lib-neoforge-1.21.1-2.0.2%2Bneoforge%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = '6HncyfPB'
+version = '42c1WR1g'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'gYap5A8T'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'O5VsIpQY'
+type = 'REQUIRED'
