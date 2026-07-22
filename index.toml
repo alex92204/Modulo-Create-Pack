@@ -882,7 +882,7 @@ hash = "3f8953413940449b4e1d5cfbed795ee02123e8723658aa666e98f05457c4a159"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "a956a1096669f8144625f5325d763dae586ca36bf5ce20ccf8471b55d848103f"
+hash = "896323d4f4e1f19853e1111cc66efc1f63c47cabb727c81e944f6ac8ac422a3e"
 
 [[files]]
 file = "gitattributes"
