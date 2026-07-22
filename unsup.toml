@@ -1,6 +1,6 @@
 [flavor_groups.admin]
 name = "Admin Mods"
-description = "NOT Recommended to Install!\nMods I use for profiling and configuring"
+description = "Recommended to SKIP!\nMods I use for profiling and configuring\n"
 side = "both"
 [[flavor_groups.admin.choices]]
 id = "no_admin_mods"

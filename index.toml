@@ -4170,7 +4170,7 @@ hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "0b7f9b81a8302163798f885a581df668b72d92f8ea91640f8e063cacdf426a23"
+hash = "c36b461ab0cc1bd3662d09ea722306b9981a69e24d11198a17c5dcc3f0e9659c"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -7829,4 +7829,4 @@ hash = "7adfaf00b7a3df0ded9e78c38675aef1e2f941a6d14b1b72ad57300534a06a7d"
 
 [[files]]
 file = "unsup.toml"
-hash = "a791f2766e9edcf272487a0d4f54c58d733232e0eaec8835af44342c9df89997"
+hash = "e50c423ddf4d19b86aba9fc464132b26c42da947b400a00f4b6b0f95f0cd9f60"
