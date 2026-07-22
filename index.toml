@@ -7256,7 +7256,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "44d915c8238b27f73741dc12114d37c8562f78c3e2cd4f18d2e92767bb6ab09c"
+hash = "d684000b10c7e7a75581cd322ab84ffce34bbcf22cd9783135186d2508f74a60"
 metafile = true
 
 [[files]]
@@ -7546,7 +7546,7 @@ metafile = true
 
 [[files]]
 file = "mods/notenoughrecipebook.pw.toml"
-hash = "8dc52c2517aa437dec2e4edf90e90b96df5d2d486083f1ccb8ed753e1ac2ac8d"
+hash = "2655d006ff3f6fad12dd3cd5791b77ff9ea1073194f784ee17c6e6f708e2809a"
 metafile = true
 
 [[files]]
