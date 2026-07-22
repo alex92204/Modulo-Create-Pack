@@ -25,6 +25,19 @@ id = "admin"
 name = "Install"
 description = "Install Admin mods."
 
+[flavor_groups.server]
+name = "[IGNORE] Server Mods Only"
+description = "Only for server!"
+side = "client"
+[[flavor_groups.server.choices]]
+id = "modpack"
+name = "[REQUIRED] Skip"
+description = "Install as normal."
+[[flavor_groups.server.choices]]
+id = "server"
+name = "Server Install"
+description = "Install for server ONLY\nSkip client mods"
+
 [metafile.iris]
 flavors = "shaders"
 [metafile.euphoria-patches]
@@ -48,3 +61,78 @@ flavors = "admin"
 flavors = "admin"
 [metafile.probejs]
 flavors = "admin"
+
+[metafile.controlling]
+flavors = "modpack"
+[metafile.yeetus-experimentus]
+flavors = "modpack"
+[metafile.chat-heads]
+flavors = "modpack"
+[metafile.better-advancements]
+flavors = "modpack"
+[metafile.emi-plus-backport]
+flavors = "modpack"
+[metafile.lambdynamiclights]
+flavors = "modpack"
+[metafile.bigsignwriter]
+flavors = "modpack"
+[metafile.dynamic-fps]
+flavors = "modpack"
+[metafile.morebeeinfo]
+flavors = "modpack"
+[metafile.reeses-sodium-options]
+flavors = "modpack"
+[metafile.ssrd]
+flavors = "modpack"
+[metafile.entityculling]
+flavors = "modpack"
+[metafile.particular-reforged]
+flavors = "modpack"
+[metafile.emi-enchanting]
+flavors = "modpack"
+[metafile.simple-discord-rpc]
+flavors = "modpack"
+[metafile.tmrv]
+flavors = "modpack"
+[metafile.asyncparticles]
+flavors = "modpack"
+[metafile.better-clouds]
+flavors = "modpack"
+[metafile.cubes-without-borders]
+flavors = "modpack"
+[metafile.ok-zoomer]
+flavors = "modpack"
+[metafile.entitytexturefeatures]
+flavors = "modpack"
+[metafile.entity-model-features]
+flavors = "modpack"
+[metafile.sodium]
+flavors = "modpack"
+[metafile.extreme_sound_muffler]
+flavors = "modpack"
+[metafile.i-know-how-to-play!]
+flavors = "modpack"
+[metafile.seamless-loading-screen]
+flavors = "modpack"
+[metafile.immediatelyfast]
+flavors = "modpack"
+[metafile.create-nowheel]
+flavors = "modpack"
+[metafile.moreculling]
+flavors = "modpack"
+[metafile.searchables]
+flavors = "modpack"
+[metafile.flerovium]
+flavors = "modpack"
+[metafile.simplefog]
+flavors = "modpack"
+[metafile.sodium-shadowy-path-blocks]
+flavors = "modpack"
+[metafile.particle-rain]
+flavors = "modpack"
+[metafile.no-chat-restrictions]
+flavors = "modpack"
+[metafile.resourcepackcached]
+flavors = "modpack"
+[metafile.freecam]
+flavors = "modpack"
