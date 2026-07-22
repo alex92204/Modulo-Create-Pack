@@ -4170,7 +4170,7 @@ hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "c36b461ab0cc1bd3662d09ea722306b9981a69e24d11198a17c5dcc3f0e9659c"
+hash = "896323d4f4e1f19853e1111cc66efc1f63c47cabb727c81e944f6ac8ac422a3e"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -7195,6 +7195,11 @@ hash = "a927b3540095bfbdbba24f977791e640e6b483c6182340cf919ad35795db8edc"
 metafile = true
 
 [[files]]
+file = "mods/colorwheel.pw.toml"
+hash = "1d75c174bee8494da5fa19afecea5b25a0445c7adb39e89711c49bf9bcf105ed"
+metafile = true
+
+[[files]]
 file = "mods/configured-defaults.pw.toml"
 hash = "075f9083455c4821e83f03b392d4ca43ddabda8442bf265c71e4cd4cda7cc7c2"
 metafile = true
@@ -7315,6 +7320,11 @@ hash = "e7f475599dadc1d3b0942ac654ee56e54d81425a73fe3acf547318b1a1953f66"
 metafile = true
 
 [[files]]
+file = "mods/createbetterfps.pw.toml"
+hash = "5b6c4f7b0489be39e71936a234eb5b286f78bc82eaf4e32f6c4ad441f048dfa8"
+metafile = true
+
+[[files]]
 file = "mods/cubes-without-borders.pw.toml"
 hash = "2b6f01ad607007b0cc9dd914face557e750bf664e4955a189c938b9d6ac25068"
 metafile = true
@@ -7395,6 +7405,11 @@ hash = "1a48308f626c4bc152872d0e7242f5c7c2b4ae373895c9812fd858624e7d3912"
 metafile = true
 
 [[files]]
+file = "mods/euphoria-patches.pw.toml"
+hash = "8c28fca715a3dfa2ced699d67718a4c9c83ad4412b569ed8e1006671f484f710"
+metafile = true
+
+[[files]]
 file = "mods/exposure.pw.toml"
 hash = "0222f767345e2f3624b01c700ff09386f602e5787ec05c0d4eb13939000f2ec4"
 metafile = true
@@ -7447,6 +7462,11 @@ metafile = true
 [[files]]
 file = "mods/in-control.pw.toml"
 hash = "3f8998d24cee36b2dcb9117d54897644dc1e867a2e0e8ddf31eb5bcba2f4ee33"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "0b9254a90d65559c886b25c0bad03b7e3f3bc21186b533115e62600e86f2a626"
 metafile = true
 
 [[files]]
@@ -7828,5 +7848,14 @@ file = "packwizignore"
 hash = "7adfaf00b7a3df0ded9e78c38675aef1e2f941a6d14b1b72ad57300534a06a7d"
 
 [[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3.txt"
+hash = "f3acb0030fb38ad6e2a73d32e0232fd6d81a8ac1b051b81484f588fd54ae4375"
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "f37cdd9e95e32db5b3407bf80698494ff0aaf03d6f516793971d55449bc3b0cd"
+metafile = true
+
+[[files]]
 file = "unsup.toml"
-hash = "e50c423ddf4d19b86aba9fc464132b26c42da947b400a00f4b6b0f95f0cd9f60"
+hash = "56e8454fba4c04bde87d965bacecaefdf4836e640640fe36ac6be4d89442b41e"

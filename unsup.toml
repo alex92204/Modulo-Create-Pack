@@ -1,15 +1,40 @@
+[flavor_groups.shaders]
+name = "Install Shaders"
+description = "WARNING: Shader mods may decrease performance even when shaders are DISABLED!\nSome mods do not support shaders well, and performance will be heavily impacted!\nIf you still want shaders, set to Install! Only Complementary Reimagined will be supported.\n"
+side = "client"
+
+[[flavor_groups.shaders.choices]]
+id = "no_shaders"
+name = "Skip"
+description = "Do not install Shaders."
+[[flavor_groups.shaders.choices]]
+id = "shaders"
+name = "Install"
+description = "Install Iris, Euphoria Patches, Colorwheel, Create Better FPS, and Complimentary Reimagined."
+
 [flavor_groups.admin]
 name = "Admin Mods"
 description = "Recommended to SKIP!\nMods I use for profiling and configuring\n"
 side = "both"
 [[flavor_groups.admin.choices]]
 id = "no_admin_mods"
-name = "Skip"
+name = "[Recommended] Skip"
 description = "Do not install Admin mods."
 [[flavor_groups.admin.choices]]
 id = "admin"
 name = "Install"
 description = "Install Admin mods."
+
+[metafile.iris]
+flavors = "shaders"
+[metafile.euphoria-patches]
+flavors = "shaders"
+[metafile.colorwheel]
+flavors = "shaders"
+[metafile.createbetterfps]
+flavors = "shaders"
+[metafile."/shaderpacks/complimentary-reimagined.pw.toml"]
+flavors = "shaders"
 
 [metafile.crash-assistant]
 flavors = "admin"
