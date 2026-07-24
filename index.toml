@@ -7101,7 +7101,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "2de72a067c618a855af01239c1dd665e99bd9987a9f1301fcf499dd61669df02"
+hash = "9b69b6b1aef232702a4dde84d1c38e262721d280d4b4d3ed898c952beefd7a72"
 metafile = true
 
 [[files]]
@@ -7266,7 +7266,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "d684000b10c7e7a75581cd322ab84ffce34bbcf22cd9783135186d2508f74a60"
+hash = "0b51e82fbc2af0cd0bc11a66dc4cd22c4fcb1852738a43ae36488a37eb68a015"
 metafile = true
 
 [[files]]
@@ -7545,6 +7545,11 @@ hash = "d1e1ea90eae906700f9e8eb30a52395ccb8d5aa2b35fb2aa98c461e6d7ac2866"
 metafile = true
 
 [[files]]
+file = "mods/modefite-item-definition-backport.pw.toml"
+hash = "1acddf3c21615006666a189e86cf6dce40c3b912ca37ec1788532cbe0f043cba"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "c51fc43b27fc299bf445ffc61eb9702fb4759b38fc023ee0a4d67da4a6c183ec"
 metafile = true
@@ -7556,7 +7561,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "d2c4b8c6beff3b2f9445fb9d7dbec8f76b5e7c55d5c0a617dc7237dfe0660285"
+hash = "365826e27b893a449f142419e1ee75e72638db3d6e554687937dc8f879db1cb5"
 metafile = true
 
 [[files]]
@@ -7607,6 +7612,11 @@ metafile = true
 [[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "31730604cea5aa105ec8a9180357abaf9f5d3a9e102a054dbf2bf583eccf4a17"
+metafile = true
+
+[[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "9ede83065f7559416dfeee333ace687d9b933557802d06af3007a292ba485e81"
 metafile = true
 
 [[files]]
@@ -7781,7 +7791,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "ed50e64d83c74e636f74795e4626dd8369ba42e9847fc803ab2c2a842e36a8c4"
+hash = "2f78349a59d65c284b2d35af1f7eba6a07b04d22170326c66dd403affd7085d2"
 metafile = true
 
 [[files]]
@@ -7801,7 +7811,7 @@ metafile = true
 
 [[files]]
 file = "mods/vista_tv.pw.toml"
-hash = "3d601a8ad8235dc943f04e995b53631bf632b37e17ddbda5cf3561170a3f86a0"
+hash = "af21a9e11a395ff49d9d191e9b9bda7116a8644e46d0ad3dd4e9870104f1930f"
 metafile = true
 
 [[files]]
@@ -7878,4 +7888,4 @@ metafile = true
 
 [[files]]
 file = "unsup.toml"
-hash = "de8c6d242080ba1d88826c34a807ce1ea714e91561750eb59d98533c58d4f046"
+hash = "3c73f6ea8dafbfbb58f0b24b389ea26b09bc134b7a8089b658a656e23fdfa42a"

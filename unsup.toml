@@ -144,3 +144,5 @@ flavors = "modpack"
 flavors = "modpack"
 [metafile.freecam]
 flavors = "modpack"
+[metafile.modefite-item-definition-backport]
+flavors = "modpack"
