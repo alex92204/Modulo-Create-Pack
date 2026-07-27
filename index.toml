@@ -7160,11 +7160,6 @@ hash = "cb879ce162bad4c2268a3dfcf6f1651f27d12b62df8c44d2d2ea1cc93eaa161d"
 metafile = true
 
 [[files]]
-file = "mods/carryon-aeronautics-compat.pw.toml"
-hash = "895e1157f07347a33d28ac6ae6cc15c0f558bc477fed3bf6f636688a92a7e88b"
-metafile = true
-
-[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "a201518dad53840f85d48516cef311f6c7d4bcb279bca2b0ca8f8399ee959418"
 metafile = true
@@ -7306,7 +7301,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails-1.21.1.pw.toml"
-hash = "e7c2808d46a73717fdb513c47bc89115e95bd8e1cb395ec664227f4830d7601f"
+hash = "daf3829ae56d8447eb9956f12f51736149a4a42027430ee4cbcb0e8219549e28"
 metafile = true
 
 [[files]]
@@ -7381,7 +7376,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi-plus-backport.pw.toml"
-hash = "1729fc404cbdc1b109cf15c340b395d1f6d4c02dbd38161262216b0f383113f9"
+hash = "e6263b0a3b4de9a01bac1bbd56e4464e3db3274f1544a189f5396e0a6ab16bef"
 metafile = true
 
 [[files]]
