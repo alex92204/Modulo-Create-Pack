@@ -17,8 +17,6 @@ ServerEvents.tags('item', event => {
 
     event.add('moddedulo:wooden_cogwheels', ['create:cogwheel', /createcasing:(acacia|birch|bamboo|cherry|crimson|warped|dark_oak|oak|jungle|mangrove)_cogwheel/])
     event.add('moddedulo:large_wooden_cogwheels', ['create:large_cogwheel', /createcasing:(acacia|birch|bamboo|cherry|crimson|warped|dark_oak|oak|jungle|mangrove)_large_cogwheel/])
-
-    event.add('railways:internal/glass/colorless', '#c:glass_blocks/colorless')
     
     // Connected Textures
     const connectedLocometals = Ingredient.of(/.*locometal($|.pillar|.vent|.smokebox|.boiler)/).except(/(.*flat.*|.*plated.*)/).itemIds

@@ -7046,7 +7046,7 @@ hash = "a5688c7015d58ac5ba692d80dc6c06e82bd07e628569b485004e595e3518c9cd"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "c96642b714109f1dab741a7f8b32636a5d756e5763fb6348fe31a28c52945bb7"
+hash = "d234ee531fc2b5b4acae37be66bddd5b99263fdd5f70c86fdbd4ae786c578d4d"
 
 [[files]]
 file = "kubejs/startup_scripts/creative_tabs.js"
@@ -7651,7 +7651,7 @@ metafile = true
 
 [[files]]
 file = "mods/recreative.pw.toml"
-hash = "4a76e9d837c4b1bbbfdd01836682c955e1443768a2e91b7a35313b58af10e873"
+hash = "7ed5663fd86a3acc03efc148e5109c40dbfbbc2eccee981dca7ce771d5bdda79"
 metafile = true
 
 [[files]]
@@ -7791,7 +7791,7 @@ metafile = true
 
 [[files]]
 file = "mods/tiny-takeover-backport.pw.toml"
-hash = "75de654d93c3decd2d990125beb951f091854aebcef6228c71c74c9c16fa1682"
+hash = "78ada4bd1758db64d17d3fc04fa66f287d00ee860aa9564c6f2e43a9bfeef1a3"
 metafile = true
 
 [[files]]
@@ -7806,7 +7806,7 @@ metafile = true
 
 [[files]]
 file = "mods/vista_tv.pw.toml"
-hash = "af21a9e11a395ff49d9d191e9b9bda7116a8644e46d0ad3dd4e9870104f1930f"
+hash = "1eb0831a52d9641ec72ffc67d4f11f27e6d831577bfe731574a548a0c7feafaf"
 metafile = true
 
 [[files]]
