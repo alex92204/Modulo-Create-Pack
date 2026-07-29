@@ -90,13 +90,7 @@ function dimConsoleLog(serverPlayer, gamemode) {
     console.log(player.nbt.get("EnderItems"))
     console.log("With NEOFORGE ATTACHMENTS: ")
     console.log(player.nbt.getCompound("neoforge:attachments"))
-    console.log("XP: " + player.getXp() + " FOOD: " + player.getFoodLevel() + " HP: " + player.getHealth())
-    
-    console.log(player.xp)
-    console.log(player.getXpLevel())
-    console.log(player.getXpNeededForNextLevel())
-    console.log(player.totalExperience)
-    console.log(player.experienceProgress)
+    console.log("XP: " + getCurrentXp(player) + " FOOD: " + player.getFoodLevel() + " HP: " + player.getHealth())
 }
 function getCurrentXp(serverPlayer) {
     const player = /** @type {Internal.ServerPlayer}*/ (/** @type {any} */ (serverPlayer))

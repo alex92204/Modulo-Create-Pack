@@ -7022,7 +7022,7 @@ hash = "f312a1006906fb7b7a409715c0567b4fe169a5346cb966143b63b64dc8dc16a6"
 
 [[files]]
 file = "kubejs/server_scripts/dimension_swap.js"
-hash = "c723495c36e60afa6b7bb5a8f6a71d8acdfb648c6b9f3493d1fb776c6473fa73"
+hash = "6c7035d510fc55432c90bd9ee570100e8f2c25ba09ab28491a17a47dfa2d2e6d"
 
 [[files]]
 file = "kubejs/server_scripts/info_command.js"
