@@ -546,7 +546,7 @@ hash = "2de6b160b8614c3e8e1c4ca6c9450b190e8eda3421f92296435dc038cbde95a1"
 
 [[files]]
 file = "configureddefaults/config/moonlight-client.toml"
-hash = "b2417f8d65bc3de5a5f0bf4b8799e71e5e667890e56b5ce5b2fe6fea5170c5c6"
+hash = "c5128bab27d781c03de34e7a4f3ce1bf72f4ea117bf8d8a3b6533a4a71918699"
 
 [[files]]
 file = "configureddefaults/config/moonlight-common.toml"
@@ -802,7 +802,7 @@ hash = "76959e1ea37c9e92f87fe0a60c121fe2614dcce62219de9b18d463ce3751b754"
 
 [[files]]
 file = "configureddefaults/config/supplementaries-client.toml"
-hash = "8d4f7ea351893140dd856da84ce6d4e1ced6ab8d2d793921278a780dffef53b6"
+hash = "951b7a9c4ae90bbae0f8894da51b651db2854895c64efb7deb7fd38139544373"
 
 [[files]]
 file = "configureddefaults/config/supplementaries-common.toml"
