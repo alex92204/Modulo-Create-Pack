@@ -7376,7 +7376,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi-plus-backport.pw.toml"
-hash = "e6263b0a3b4de9a01bac1bbd56e4464e3db3274f1544a189f5396e0a6ab16bef"
+hash = "5d15d0e7bcff63c41ca533eb92fcbe8f0926b0eaf6e17e0e1a5673bbc0e5af9d"
 metafile = true
 
 [[files]]
@@ -7451,7 +7451,7 @@ metafile = true
 
 [[files]]
 file = "mods/horseman.pw.toml"
-hash = "3bfe0219e5397dd487bff066404bac57765f33ff8fb25b1bba02d1b77f5383f7"
+hash = "59ff2f2acdc88ec317a5ca157e911b1ff8f7fd60bbc39e82464e549dfa3d4344"
 metafile = true
 
 [[files]]
@@ -7651,7 +7651,7 @@ metafile = true
 
 [[files]]
 file = "mods/recreative.pw.toml"
-hash = "7ed5663fd86a3acc03efc148e5109c40dbfbbc2eccee981dca7ce771d5bdda79"
+hash = "9084c05b4e09a669c76783aee9c1bbb578a16650ecee10684bee5403541dc158"
 metafile = true
 
 [[files]]
@@ -7661,7 +7661,7 @@ metafile = true
 
 [[files]]
 file = "mods/reliable-replacer.pw.toml"
-hash = "29bb8eae8e4cf5fc5674bb28d883c1f7644075f796824f27c69b144321c3e23b"
+hash = "25e46417a147eb3b4741b4f5f10309bc33027c9068c4153f40b7f41c3fd6734a"
 metafile = true
 
 [[files]]
