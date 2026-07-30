@@ -3,8 +3,9 @@ PlayerEvents.loggedIn(event => {
 	const pData = event.player.persistentData
 	if (!pData.getBoolean('firstJoin')) {
 		pData.putBoolean('firstJoin', true)
-		player.tell(Text.of("Welcome to Modulo Create!\n").bold().gold())
-		player.tell(Text.of("Try /modulo for mod or server help!").yellow())
+		player.tell(Text.of("\n----- Welcome to Modulo Create! -----\n").bold().gold())
+		player.tell(Text.of("Try /modulo for mod or server help!\n").yellow())
+		player.tell(Text.of("----------------------------------\n").bold().gold())
 		
 		// Set default pData for dimension switch
 		for(let i = 0; i <= 3; i++) {

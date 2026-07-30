@@ -9,21 +9,21 @@ ClientEvents.generateAssets("after_mods", (event) => {
     function add(mod, name, type, data) {
         let file = `${mod}:stack_groups/${name}`;
         let obj = {
-            type: `emixx:${type}`,
+            type: `remi:${type}`,
         };
 
         if (type === "group") {
-            obj.type = "emixx:group";
+            obj.type = "remi:group";
             obj.contents = data;
         }
 
         if (type === "tag") {
-            obj.type = "emixx:tag";
+            obj.type = "remi:tag";
             obj.tag = data;
         }
 
         if (type === "regex") {
-            obj.type = "emixx:group";
+            obj.type = "remi:group";
             obj.contents = Ingredient.of(new RegExp(data)).itemIds.toArray();
         }
 
@@ -72,13 +72,13 @@ ClientEvents.generateAssets("after_mods", (event) => {
     add("moddedulo", "lightning_rods", "group", 
         ['minecraft:lightning_rod', 'minecraft:exposed_lightning_rod', 'minecraft:weathered_lightning_rod', 'minecraft:oxidized_lightning_rod', 'minecraft:waxed_lightning_rod', 'minecraft:waxed_exposed_lightning_rod', 'minecraft:waxed_weathered_lightning_rod', 'minecraft:waxed_oxidized_lightning_rod']
     );
-    add("emixx", "buttons", "group", 
+    add("minecraft", "buttons", "group", 
         ['copperagebackport:waxed_copper_button', 'copperagebackport:waxed_exposed_copper_button', 'copperagebackport:waxed_weathered_copper_button', 'copperagebackport:waxed_oxidized_copper_button', 'minecraft:pale_oak_button', 'minecraft:mangrove_button', 'minecraft:cherry_button', 'minecraft:dark_oak_button', 'minecraft:acacia_button', 'minecraft:jungle_button', 'minecraft:birch_button', 'minecraft:spruce_button', 'minecraft:oak_button', 'copperagebackport:oxidized_copper_button', 'copperagebackport:weathered_copper_button', 'copperagebackport:exposed_copper_button', 'copperagebackport:copper_button', 'minecraft:polished_blackstone_button', 'minecraft:stone_button', 'minecraft:warped_button', 'minecraft:crimson_button', 'minecraft:bamboo_button']
     );
     add("minecraft", "pressure_plates", "group",
         ['minecraft:polished_blackstone_pressure_plate', 'minecraft:pale_oak_pressure_plate', 'minecraft:cherry_pressure_plate', 'minecraft:mangrove_pressure_plate', 'minecraft:dark_oak_pressure_plate', 'minecraft:acacia_pressure_plate', 'minecraft:jungle_pressure_plate', 'minecraft:birch_pressure_plate', 'minecraft:spruce_pressure_plate', 'minecraft:oak_pressure_plate', 'minecraft:polished_blackstone_pressure_plate', 'minecraft:stone_pressure_plate', 'minecraft:warped_pressure_plate', 'minecraft:crimson_pressure_plate', 'minecraft:bamboo_pressure_plate']
     );
-    add("emixx", "doors", "group",
+    add("minecraft", "doors", "group",
         ['supplementaries:netherite_door', 'supplementaries:gold_door', 'minecraft:waxed_exposed_copper_door', 'minecraft:waxed_oxidized_copper_door', 'createdeco:andesite_door', 'createdeco:brass_door', 'createdeco:zinc_door', 'createdeco:industrial_iron_door', 'createframed:red_stained_framed_glass_door', 'createframed:orange_stained_framed_glass_door', 'createframed:yellow_stained_framed_glass_door', 'createframed:gray_stained_framed_glass_door', 'createframed:light_gray_stained_framed_glass_door', 'createdeco:locked_zinc_door', 'createdeco:locked_industrial_iron_door', 'createdeco:locked_copper_door', 'createdeco:locked_brass_door', 'createdeco:locked_andesite_door', 'minecraft:iron_door', 'create:framed_glass_door', 'minecraft:oak_door', 'minecraft:spruce_door', 'minecraft:birch_door', 'minecraft:jungle_door', 'minecraft:acacia_door', 'minecraft:mangrove_door', 'minecraft:dark_oak_door', 'minecraft:cherry_door', 'minecraft:pale_oak_door', 'minecraft:oxidized_copper_door', 'minecraft:waxed_copper_door', 'minecraft:weathered_copper_door', 'minecraft:exposed_copper_door', 'minecraft:copper_door', 'minecraft:warped_door', 'minecraft:crimson_door', 'minecraft:bamboo_door', 'minecraft:waxed_weathered_copper_door',
         'createframed:lime_stained_framed_glass_door', 'createframed:green_stained_framed_glass_door', 'create:train_door', 'create:copper_door', 'create:brass_door', 'create:andesite_door', 'createframed:tinted_framed_glass_door', 'createframed:brown_stained_framed_glass_door', 'createframed:white_stained_framed_glass_door', 'createframed:black_stained_framed_glass_door', 'createframed:pink_stained_framed_glass_door', 'createframed:magenta_stained_framed_glass_door', 'createframed:purple_stained_framed_glass_door', 'createframed:cyan_stained_framed_glass_door', 'createframed:light_blue_stained_framed_glass_door', 'createframed:blue_stained_framed_glass_door']
     );
@@ -564,10 +564,9 @@ ClientEvents.generateAssets("after_mods", (event) => {
         ['create:copper_ladder', 'create:brass_ladder', 'create:andesite_ladder', 'railways:black_locometal_rung_ladder', 'railways:black_locometal_end_ladder', 'railways:scorchia_locometal_rung_ladder', 'railways:scorchia_locometal_end_ladder', 'railways:gray_locometal_rung_ladder', 'railways:gray_locometal_end_ladder', 'railways:tuff_locometal_rung_ladder', 'railways:tuff_locometal_end_ladder', 'railways:light_gray_locometal_rung_ladder', 'railways:light_gray_locometal_end_ladder', 'railways:limestone_locometal_end_ladder', 'railways:diorite_locometal_rung_ladder', 'railways:diorite_locometal_end_ladder', 'railways:white_locometal_rung_ladder', 'railways:white_locometal_end_ladder', 'railways:pink_locometal_rung_ladder', 'railways:pink_locometal_end_ladder', 'railways:magenta_locometal_rung_ladder', 'railways:magenta_locometal_end_ladder', 'railways:purple_locometal_rung_ladder', 'railways:purple_locometal_end_ladder', 'railways:royal_blue_locometal_rung_ladder', 'railways:royal_blue_locometal_end_ladder', 'railways:blue_locometal_rung_ladder', 'railways:blue_locometal_end_ladder', 'railways:light_blue_locometal_end_ladder', 'railways:turquoise_locometal_rung_ladder', 'railways:turquoise_locometal_end_ladder', 'railways:sea_green_locometal_rung_ladder', 'railways:sea_green_locometal_end_ladder', 'railways:cyan_locometal_rung_ladder', 'railways:light_blue_locometal_rung_ladder', 'railways:limestone_locometal_rung_ladder',
         'railways:cyan_locometal_end_ladder', 'railways:pine_green_locometal_rung_ladder', 'railways:pine_green_locometal_end_ladder', 'railways:green_locometal_rung_ladder', 'railways:green_locometal_end_ladder', 'railways:lime_locometal_rung_ladder', 'railways:lime_locometal_end_ladder', 'railways:olive_green_locometal_rung_ladder', 'railways:olive_green_locometal_end_ladder', 'railways:chartreuse_locometal_rung_ladder', 'railways:chartreuse_locometal_end_ladder', 'railways:yellow_locometal_rung_ladder', 'railways:yellow_locometal_end_ladder', 'railways:ochrum_locometal_rung_ladder', 'railways:ochrum_locometal_end_ladder', 'railways:dripstone_locometal_rung_ladder', 'railways:dripstone_locometal_end_ladder', 'railways:granite_locometal_rung_ladder', 'railways:granite_locometal_end_ladder', 'railways:orange_locometal_rung_ladder', 'railways:orange_locometal_end_ladder', 'railways:vermilion_locometal_rung_ladder', 'railways:vermilion_locometal_end_ladder', 'railways:red_locometal_rung_ladder', 'railways:red_locometal_end_ladder', 'railways:maroon_locometal_rung_ladder', 'railways:maroon_locometal_end_ladder', 'railways:brown_locometal_rung_ladder', 'railways:locometal_rung_ladder', 'railways:locometal_end_ladder', 'createdeco:zinc_ladder', 'createdeco:industrial_iron_ladder', 'createdeco:iron_ladder', 'railways:brown_locometal_end_ladder']  
     );
-    add("emixx", "minecarts", "group",
+    add("minecraft", "minecarts", "group",
         ['minecraft:minecart', 'minecraft:hopper_minecart', 'minecraft:chest_minecart', 'minecraft:furnace_minecart', 'minecraft:tnt_minecart', 'railways:benchcart', 'railways:jukeboxcart', 'supplementaries:dispenser_minecart']
     );
-
     add("moddedulo", "music_discs", "tag", 
         "c:music_discs"
     );

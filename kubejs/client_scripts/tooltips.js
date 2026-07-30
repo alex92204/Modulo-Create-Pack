@@ -264,12 +264,12 @@ ItemEvents.modifyTooltips(e => {
     // Analog Audio
 
     e.modify('analogaudio:cassette_deck', {shift:false}, t => {
-        t.removeLine(2)
+        t.removeLine(1)
         t.insert(1, Text.join([Text.darkGray('Hold ['), Text.gray('Shift'), Text.darkGray('] for Summary')]))
     })
     e.modify('analogaudio:cassette_deck', {shift:true}, t => {
-        t.removeLine(2)
-        t.removeLine(2)
+        t.removeLine(1)
+        t.removeLine(1)
         t.insert(1, [
         Text.join([Text.darkGray('Hold ['), Text.white('Shift'), Text.darkGray('] for Summary')]),
         '',
@@ -277,12 +277,12 @@ ItemEvents.modifyTooltips(e => {
         ])
     })
     e.modify('analogaudio:cassette_bag', {shift:false}, t => {
-        t.removeLine(3)
+        t.removeLine(2)
         t.insert(1, Text.join([Text.darkGray('Hold ['), Text.gray('Shift'), Text.darkGray('] for Summary')]))
     })
     e.modify('analogaudio:cassette_bag', {shift:true}, t => {
-        t.removeLine(3)
-        t.removeLine(3)
+        t.removeLine(2)
+        t.removeLine(2)
         t.insert(1, [
         Text.join([Text.darkGray('Hold ['), Text.white('Shift'), Text.darkGray('] for Summary')]),
         '',
@@ -290,12 +290,12 @@ ItemEvents.modifyTooltips(e => {
         ])
     })
     e.modify('analogaudio:cassette_tape', {shift:false}, t => {
-        t.removeLine(2)
+        t.removeLine(1)
         t.insert(1, Text.join([Text.darkGray('Hold ['), Text.gray('Shift'), Text.darkGray('] for Summary')]))
     })
     e.modify('analogaudio:cassette_tape', {shift:true}, t => {
-        t.removeLine(2)
-        t.removeLine(2)
+        t.removeLine(1)
+        t.removeLine(1)
         t.insert(1, [
         Text.join([Text.darkGray('Hold ['), Text.white('Shift'), Text.darkGray('] for Summary')]),
         '',
@@ -303,15 +303,15 @@ ItemEvents.modifyTooltips(e => {
         ])
     })
     e.modify('analogaudio:walkie_talkie', {shift:false}, t => {
-        t.removeLine(3)
+        t.removeLine(2)
         t.insert(1, Text.join([Text.darkGray('Hold ['), Text.gray('Shift'), Text.darkGray('] for Summary')]))
     })
     e.modify('analogaudio:walkie_talkie', {shift:true}, t => {
-        t.removeLine(3)
-        t.removeLine(3)
-        t.removeLine(3)
-        t.removeLine(3)
-        t.removeLine(3)
+        t.removeLine(2)
+        t.removeLine(2)
+        t.removeLine(2)
+        t.removeLine(2)
+        t.removeLine(2)
         t.insert(1, [
         Text.join([Text.darkGray('Hold ['), Text.white('Shift'), Text.darkGray('] for Summary')]),
         '',
@@ -322,12 +322,12 @@ ItemEvents.modifyTooltips(e => {
         ])
     })
     e.modify('analogaudio:speaker', {shift:false}, t => {
-        t.removeLine(3)
+        t.removeLine(2)
         t.insert(1, Text.join([Text.darkGray('Hold ['), Text.gray('Shift'), Text.darkGray('] for Summary')]))
     })
     e.modify('analogaudio:speaker', {shift:true}, t => {
-        t.removeLine(3)
-        t.removeLine(3)
+        t.removeLine(2)
+        t.removeLine(2)
         t.insert(1, [
         Text.join([Text.darkGray('Hold ['), Text.white('Shift'), Text.darkGray('] for Summary')]),
         '',
@@ -336,12 +336,12 @@ ItemEvents.modifyTooltips(e => {
         ])
     })
     e.modify('analogaudio:radio', {shift:false}, t => {
-        t.removeLine(3)
+        t.removeLine(2)
         t.insert(1, Text.join([Text.darkGray('Hold ['), Text.gray('Shift'), Text.darkGray('] for Summary')]))
     })
     e.modify('analogaudio:radio', {shift:true}, t => {
-        t.removeLine(3)
-        t.removeLine(3)
+        t.removeLine(2)
+        t.removeLine(2)
         t.insert(1, [
         Text.join([Text.darkGray('Hold ['), Text.white('Shift'), Text.darkGray('] for Summary')]),
         '',
@@ -769,6 +769,69 @@ ItemEvents.modifyTooltips(e => {
         '',
         Text.join([Text.gray('When R-Clicked on a Custom Painting')]),
         Text.join([Text.of(' Changes the ').color(x), Text.of('View Range').color(h), Text.of(' of the painting').color(x)])
+        ])
+    })
+
+    // SHUFFLE FILTERS
+    e.modify('createshufflefilter:skip', {shift:false}, t => {
+        t.removeLine(1)
+        t.removeLine(1)
+        t.insert(1, Text.join([Text.darkGray('Hold ['), Text.gray('Shift'), Text.darkGray('] for Summary')]))
+    })
+    e.modify('createshufflefilter:skip', {shift:true}, t => {
+        t.removeLine(1)
+        t.removeLine(1)
+        t.insert(1, [
+        Text.join([Text.darkGray('Hold ['), Text.white('Shift'), Text.darkGray('] for Summary')]),
+        '',
+        Text.join([Text.of('Drag this to a ').color(x), Text.of('Shuffle Filter').color(h), Text.of(' slot.').color(x)]),
+        Text.join([Text.of('When rolled ').color(x), Text.of('no block').color(h), Text.of(' is placed for that position.').color(x)])
+        ])
+    })
+    e.modify('createshufflefilter:weighted_shuffle_filter', {shift:false}, t => {
+        t.removeLine(1)
+        t.removeLine(1)
+        t.removeLine(1)
+        t.removeLine(1)
+        t.removeLine(1)
+        t.insert(1, Text.join([Text.darkGray('Hold ['), Text.gray('Shift'), Text.darkGray('] for Summary')]))
+    })
+    e.modify('createshufflefilter:weighted_shuffle_filter', {shift:true}, t => {
+        t.removeLine(1)
+        t.removeLine(1)
+        t.removeLine(1)
+        t.removeLine(1)
+        t.insert(1, [
+        Text.join([Text.darkGray('Hold ['), Text.white('Shift'), Text.darkGray('] for Summary')]),
+        '',
+        Text.join([Text.of('Configurable ').color(x), Text.of('probability weights').color(h), Text.of(' per block.').color(x)]),
+        Text.join([Text.of('Acts as an ').color(x), Text.of('allow-list').color(h), Text.of('  in funnels and basins, ').color(x), Text.of('randomizes').color(h), Text.of(' in deployers.').color(x)]),
+        '',
+        Text.join([Text.gray('When R-Clicked')]),
+        Text.join([Text.of(' Opens the ').color(x), Text.of('configuration interface').color(h), Text.of('.').color(x)])
+        ])
+    })
+    e.modify('createshufflefilter:shuffle_filter', {shift:false}, t => {
+        t.removeLine(1)
+        t.removeLine(1)
+        t.removeLine(1)
+        t.removeLine(1)
+        t.removeLine(1)
+        t.insert(1, Text.join([Text.darkGray('Hold ['), Text.gray('Shift'), Text.darkGray('] for Summary')]))
+    })
+    e.modify('createshufflefilter:shuffle_filter', {shift:true}, t => {
+        t.removeLine(1)
+        t.removeLine(1)
+        t.removeLine(1)
+        t.removeLine(1)
+        t.insert(1, [
+        Text.join([Text.darkGray('Hold ['), Text.white('Shift'), Text.darkGray('] for Summary')]),
+        '',
+        Text.join([Text.of('All blocks have ').color(x), Text.of('equal selection probability').color(h), Text.of('.').color(x)]),
+        Text.join([Text.of('Acts as an ').color(x), Text.of('allow-list').color(h), Text.of('  in funnels and basins, ').color(x), Text.of('randomizes').color(h), Text.of(' in deployers.').color(x)]),
+        '',
+        Text.join([Text.gray('When R-Clicked')]),
+        Text.join([Text.of(' Opens the ').color(x), Text.of('configuration interface').color(h), Text.of('.').color(x)])
         ])
     })
 })
