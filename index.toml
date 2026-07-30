@@ -5,6 +5,38 @@ file = "README.md"
 hash = "5b6d7c2dd61d192f163468dc2eebeed74f0afd478d1070de22cb4c94ee4438ad"
 
 [[files]]
+file = "config/emixx/emixx-client-1.toml.bak"
+hash = "8f111e420f95d6061d981a6ba3b059e5646af1e8bf7b7bce1490a1fc0292cd2c"
+
+[[files]]
+file = "config/emixx/emixx-client.toml"
+hash = "fd382582eee965a12e2669aa023132ad95b10ae06bb1563b8fb4dec2d6fe9232"
+
+[[files]]
+file = "config/emixx/emixx.json"
+hash = "47402630702daace8817013fb80d534c844e6dc48f8662e12c5c1f11ea898721"
+
+[[files]]
+file = "config/emixx/stack_groups/c_dusts.json"
+hash = "89af6cfc5c5c5e8626a0d5268324590bba3791935d6b271245db5fb63131d57a"
+
+[[files]]
+file = "config/emixx/stack_groups/c_glass_panes.json"
+hash = "63ee40ef93816febabb79d606ba2ed49228a55139418d9d6219b7b7b6787f543"
+
+[[files]]
+file = "config/emixx/stack_groups/c_music_discs.json"
+hash = "bb033718b7715d87ff5d395d241e72f286690828897ba5ebb68bfac740160008"
+
+[[files]]
+file = "config/emixx/stack_groups/minecraft_doors.json"
+hash = "82637f331cea4885af24661f85922662577ebc9874786f339a623f672fcc938b"
+
+[[files]]
+file = "config/emixx/stack_groups/minecraft_fences.json"
+hash = "aa50700c7ac95e9608accae9b6218764da411b2e3201ae775101c78c6cf5ec76"
+
+[[files]]
 file = "config/vanillabackport-client.toml"
 hash = "39c8f98a592ceb9de55b815b3cfbf38567c1a8ea45336ee25e67131a407967b9"
 
@@ -318,7 +350,7 @@ hash = "fd382582eee965a12e2669aa023132ad95b10ae06bb1563b8fb4dec2d6fe9232"
 
 [[files]]
 file = "configureddefaults/config/emixx/emixx.json"
-hash = "b1da7fb41a8030c5426fa9b526ea2db5f10174686e262b9985bbff8413b4fa7a"
+hash = "47402630702daace8817013fb80d534c844e6dc48f8662e12c5c1f11ea898721"
 
 [[files]]
 file = "configureddefaults/config/emixx/stack_groups/c_dusts.json"
