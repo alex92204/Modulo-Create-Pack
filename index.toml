@@ -5,10 +5,6 @@ file = "README.md"
 hash = "5b6d7c2dd61d192f163468dc2eebeed74f0afd478d1070de22cb4c94ee4438ad"
 
 [[files]]
-file = "config/emixx/emixx-client-1.toml.bak"
-hash = "8f111e420f95d6061d981a6ba3b059e5646af1e8bf7b7bce1490a1fc0292cd2c"
-
-[[files]]
 file = "config/emixx/emixx-client.toml"
 hash = "fd382582eee965a12e2669aa023132ad95b10ae06bb1563b8fb4dec2d6fe9232"
 
@@ -339,10 +335,6 @@ hash = "fd51e308eda0e81cc238f22ed9eaf3a49aa2b3bd17813eefca4a8f794608e24b"
 [[files]]
 file = "configureddefaults/config/emi_ores-client.json"
 hash = "2a142816c58a75278aaf6fa283dc5e3b8e7fbaf8887d04fe29b200414d1aaa42"
-
-[[files]]
-file = "configureddefaults/config/emixx/emixx-client-1.toml.bak"
-hash = "8f111e420f95d6061d981a6ba3b059e5646af1e8bf7b7bce1490a1fc0292cd2c"
 
 [[files]]
 file = "configureddefaults/config/emixx/emixx-client.toml"
@@ -12430,7 +12422,7 @@ hash = "097092674df5475588d9618adef7dfc582564b0cdcaabd9bf9012950fd1037c4"
 
 [[files]]
 file = "kubejs/client_scripts/emi_groups.js"
-hash = "93cb5520174e7f8642e118641c0b47d3f31ee370ca6b67dae23e7de1c876aa34"
+hash = "009c917964aaecc5cc9bb8b2e15e938a8e8ee67c0d4b06dbc13d2f52f35c2cb9"
 
 [[files]]
 file = "kubejs/client_scripts/hide_advancements.js"

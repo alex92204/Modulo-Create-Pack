@@ -9,21 +9,21 @@ ClientEvents.generateAssets("after_mods", (event) => {
     function add(mod, name, type, data) {
         let file = `${mod}:stack_groups/${name}`;
         let obj = {
-            type: `remi:${type}`,
+            type: `emixx:${type}`,
         };
 
         if (type === "group") {
-            obj.type = "remi:group";
+            obj.type = "emixx:group";
             obj.contents = data;
         }
 
         if (type === "tag") {
-            obj.type = "remi:tag";
+            obj.type = "emixx:tag";
             obj.tag = data;
         }
 
         if (type === "regex") {
-            obj.type = "remi:group";
+            obj.type = "emixx:group";
             obj.contents = Ingredient.of(new RegExp(data)).itemIds.toArray();
         }
 
