@@ -5,6 +5,10 @@ file = "README.md"
 hash = "5b6d7c2dd61d192f163468dc2eebeed74f0afd478d1070de22cb4c94ee4438ad"
 
 [[files]]
+file = "config/vanillabackport-client.toml"
+hash = "39c8f98a592ceb9de55b815b3cfbf38567c1a8ea45336ee25e67131a407967b9"
+
+[[files]]
 file = "configureddefaults/README.md"
 hash = "7d856d3f9655abc661ac67b450a0c956bbf80323786b407301fbdca02d2c5b8b"
 
