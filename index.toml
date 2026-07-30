@@ -1954,7 +1954,7 @@ hash = "db38f0a7e1eaa497a71b8051391bd4011bfdadef97278777c46f15fdeff21820"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/emi_additions.json"
-hash = "a21d864d8b7df1fc2778a0f22dcff4b8498996fac8598ed8ad3ba74ace270d5f"
+hash = "0511c4631b3ede530a6ed32b944bad76bae4028cc64cc0cd40a74c6a9e8c248f"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/acacia_cogwheel.json"
