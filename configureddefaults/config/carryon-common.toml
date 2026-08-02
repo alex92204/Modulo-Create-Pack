@@ -15,21 +15,21 @@
 	#Slowness multiplier for blocks
 	# Default: 1.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	blockSlownessMultiplier = 1.0
+	blockSlownessMultiplier = 0.0
 	#Slowness multiplier for entities
 	# Default: 1.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	entitySlownessMultiplier = 1.0
+	entitySlownessMultiplier = 0.0
 	#Maximum stack limit for entities
 	# Default: 10
 	# Range: > 1
 	maxEntityStackLimit = 10
 	#More complex Tile Entities slow down the player more
-	heavyTiles = true
+	heavyTiles = false
 	#Allow all blocks to be picked up, not just Tile Entites. White/Blacklist will still be respected.
 	pickupAllBlocks = false
 	#Whether Blocks and Entities slow the creative player down when carried
-	slownessInCreative = true
+	slownessInCreative = false
 	#Whether hostile mobs should be able to picked up in survival mode
 	pickupHostileMobs = false
 	#Larger Entities slow down the player more

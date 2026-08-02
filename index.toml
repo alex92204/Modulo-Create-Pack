@@ -33,6 +33,10 @@ file = "config/emixx/stack_groups/minecraft_fences.json"
 hash = "aa50700c7ac95e9608accae9b6218764da411b2e3201ae775101c78c6cf5ec76"
 
 [[files]]
+file = "config/logbegone.json"
+hash = "68b0013723e418017de9cbdcfec90b758dfa248776c200c29a2da70d3cf5c04f"
+
+[[files]]
 file = "config/vanillabackport-client.toml"
 hash = "39c8f98a592ceb9de55b815b3cfbf38567c1a8ea45336ee25e67131a407967b9"
 
@@ -153,6 +157,10 @@ file = "configureddefaults/config/betterclouds-v1.json"
 hash = "49c0b410b56b3667912f36a783570029d5a1d55fd6218ed29ea9231864db5252"
 
 [[files]]
+file = "configureddefaults/config/betterf3.toml"
+hash = "d6ed2dccac6aa6164b89206b54115c747365c02e4bd557750a9b4780f202f65a"
+
+[[files]]
 file = "configureddefaults/config/bigsignwriter/config.json"
 hash = "2dee446119a0ffa1638f8b2c22fd20dca87fd60f90dadfbec643482b1e96f9c2"
 
@@ -178,7 +186,7 @@ hash = "865a366143df5f4d92941058c823ea48deb8445f6444b45e870331b16a444f0f"
 
 [[files]]
 file = "configureddefaults/config/carryon-common.toml"
-hash = "309df3f15b1279139644c31641b562503f659d25a46a270a3724af67431cdb3f"
+hash = "8a5e0e33fe0e23d5f7bd5534c3dc09b5b94e42dd4cd7582b7b1d639141f8eb80"
 
 [[files]]
 file = "configureddefaults/config/cccbridge/client.toml"
@@ -554,7 +562,7 @@ hash = "e471907a32b835c1c368a6de6aee10c22f35f878279a950d970b78833bf3d974"
 
 [[files]]
 file = "configureddefaults/config/logbegone.json"
-hash = "c3ee956eeb22a0ac12fb691bf281c62d29278c2b000faba56258eaa075c0a4e2"
+hash = "68b0013723e418017de9cbdcfec90b758dfa248776c200c29a2da70d3cf5c04f"
 
 [[files]]
 file = "configureddefaults/config/malilib.json"
@@ -1954,7 +1962,7 @@ hash = "db38f0a7e1eaa497a71b8051391bd4011bfdadef97278777c46f15fdeff21820"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/emi_additions.json"
-hash = "0511c4631b3ede530a6ed32b944bad76bae4028cc64cc0cd40a74c6a9e8c248f"
+hash = "0d1f34d4691fe83c0fc9aa3f61c27dd9023d11be67c2fee100a94c31967d5f14"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/acacia_cogwheel.json"
@@ -3766,7 +3774,7 @@ hash = "7fddf011aef9885e3528c9fc3539cbb1fda27139ab1b8bf27780c450958d63ed"
 
 [[files]]
 file = "kubejs/assets/minecraft/texts/splashes.txt"
-hash = "dde83ac292a508261fb8deadea8488c08c8f89c8e2e3897722ade92fb521fd80"
+hash = "a40dd3507968ebc25f9e24970593908c29752e41c325dd8b77f6ef4f5b3986ee"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/block/redstone_torch.png"
@@ -15306,7 +15314,7 @@ hash = "f312a1006906fb7b7a409715c0567b4fe169a5346cb966143b63b64dc8dc16a6"
 
 [[files]]
 file = "kubejs/server_scripts/dimension_swap.js"
-hash = "6c7035d510fc55432c90bd9ee570100e8f2c25ba09ab28491a17a47dfa2d2e6d"
+hash = "6f90abb9ccda7164da0f13398d9f17eb907328ae277bcf190f20786d89baa542"
 
 [[files]]
 file = "kubejs/server_scripts/info_command.js"
@@ -15326,7 +15334,7 @@ hash = "11a7003839ad740649c990c2384bef5a095d3357dadc1571c6ee89220d2f3e5f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "a5688c7015d58ac5ba692d80dc6c06e82bd07e628569b485004e595e3518c9cd"
+hash = "d3a41418aaffd781436707bc127ca6752f9929b21dd9bdf887e51651e91e9ddc"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -15395,12 +15403,12 @@ metafile = true
 
 [[files]]
 file = "mods/armor-poser.pw.toml"
-hash = "9317d691df1bf49bea2b2e52aeb5fee941239bc6844db93b08036ed350e9f754"
+hash = "5654bcd94a8992561af1464b6c29334ee5df0e4c1a042d8f318436b1e3c6a6da"
 metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "b5c17f088a57739db55d3c457ca2fae52e074e13400e7278a7f0767be167fb6e"
+hash = "94faf838a1903d4c04381e607935a9344d514011471edd848f845e23dd31417a"
 metafile = true
 
 [[files]]
@@ -15416,6 +15424,11 @@ metafile = true
 [[files]]
 file = "mods/better-clouds.pw.toml"
 hash = "4bcaa0359543e6ecc6c5c6e2ca5c6af964870dd0926fe4f3131d5164cacdcafa"
+metafile = true
+
+[[files]]
+file = "mods/betterf3.pw.toml"
+hash = "ac0bb6a6660040c6f1990a17176a8a62937e34fd74a310eb574b345a23257b33"
 metafile = true
 
 [[files]]
@@ -15545,7 +15558,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "873b2957c5b2658d1d4e6ba5dd3276ebb2e609faa1e76a39c148eba1c05458c0"
+hash = "5165b102f3d31e4d3ece1d86ac469ff7a42ba4461fe02a563317aa2e41794a6f"
 metafile = true
 
 [[files]]
@@ -15660,7 +15673,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi-plus-backport.pw.toml"
-hash = "5d15d0e7bcff63c41ca533eb92fcbe8f0926b0eaf6e17e0e1a5673bbc0e5af9d"
+hash = "e2855207b3c12b318d235d5882794bf1c0f72d9758568a8fa97dfae3df15232a"
 metafile = true
 
 [[files]]
@@ -15716,6 +15729,11 @@ metafile = true
 [[files]]
 file = "mods/flerovium.pw.toml"
 hash = "c8eda7c86deb3e5246c10419d57292e8e11b8769110e1159bdf6fda36713ed2a"
+metafile = true
+
+[[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "e116aa35a3b573e487213bd44b82ee133e823829a7d90cd990f3766c7997cff3"
 metafile = true
 
 [[files]]
@@ -15945,7 +15963,7 @@ metafile = true
 
 [[files]]
 file = "mods/reliable-replacer.pw.toml"
-hash = "25e46417a147eb3b4741b4f5f10309bc33027c9068c4153f40b7f41c3fd6734a"
+hash = "426ae947850438ef4c8774001534265983582d475e6b7a7f4f24a2c808f0048b"
 metafile = true
 
 [[files]]
@@ -15970,7 +15988,7 @@ metafile = true
 
 [[files]]
 file = "mods/scholar.pw.toml"
-hash = "262e883afec42b67c8bba2716e72d0f771890303261ab2ddc9fee2dd1c6da47f"
+hash = "8ea1252d29b6d3d4de9296dd168bf5899c30626b0e0add58a0d087518ccaf89e"
 metafile = true
 
 [[files]]
@@ -16030,7 +16048,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "2190d665f1e8f82bf3d518e669f7eccaa45ef4e03060978a08d50cf62576f84e"
+hash = "a2853dd0347aae8d7354abd261bcb099098b714e6bc0d0403edf075d68000add"
 metafile = true
 
 [[files]]
@@ -16070,7 +16088,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "2f78349a59d65c284b2d35af1f7eba6a07b04d22170326c66dd403affd7085d2"
+hash = "fb87c537ea91cfec2d6a76d1c9c3453a362aa809b41175d9fe0147dea9865a42"
 metafile = true
 
 [[files]]
@@ -16125,8 +16143,8 @@ file = "moonlight-global-datapacks/anti enderman grief v1.1.15 (MC 1.21-1.21.11)
 hash = "14cfcab51ea5a46e1b7a9aa64d42f5b2e94188ea18818e9207b8325e0f66d9e3"
 
 [[files]]
-file = "moonlight-global-datapacks/bat membranes v1.0.18 (MC 26.2).zip"
-hash = "2746e2a94eceba0a3f7c4fa6c530e5ed82cb7da6f65354becb77a8f50a209f6b"
+file = "moonlight-global-datapacks/bat membranes v1.0.16 (MC 1.21-1.21.11).zip"
+hash = "b7390196958180b8aab987bdcf3fa62d48d865f31c9d7e42ce5daf28d351b23e"
 
 [[files]]
 file = "moonlight-global-datapacks/custom_roleplay_data_v1.5.zip"
@@ -16175,4 +16193,4 @@ metafile = true
 
 [[files]]
 file = "unsup.toml"
-hash = "3c73f6ea8dafbfbb58f0b24b389ea26b09bc134b7a8089b658a656e23fdfa42a"
+hash = "146a6ead40e1c807c76df093c0554836b32166497eae4182b5d2a968d76bfc73"

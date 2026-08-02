@@ -1,25 +1,25 @@
-filename = 'emixx-neoforge-1.21.1-3.5.1.jar'
+filename = 'remi-neoforge-1.21.1-4.0.1.jar'
 name = 'EMI++'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '3.5.1-1.21.1-neoforge'
+x-prismlauncher-version-number = '4.0.1-1.21.1-neoforge'
 
 [download]
-hash = 'c73a74f7e013b727b5539a19a1278f1ef0bd4b5825dea454ee7fc4ccef3ccf2f8ec6620ad3a3aef3a82afd9e7a4a4b6645c7c380e1cc767960c96400f7e1ea57'
+hash = 'edba4279bf1528ee48a0427680de23fe7849c4eeec86938d158c789ba1b8c765818625c8362dbc91fc5889706acebe8f9bd3cfba6e9b0a4c239e62c9a48cb22f'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/N9WucjHL/versions/DkGV8mMX/emixx-neoforge-1.21.1-3.5.1.jar'
+url = 'https://cdn.modrinth.com/data/N9WucjHL/versions/Nzz0cABp/remi-neoforge-1.21.1-4.0.1.jar'
 
 [update.modrinth]
 mod-id = 'N9WucjHL'
-version = 'DkGV8mMX'
-
-[[x-prismlauncher-dependencies]]
-addonId = '1eAoo2KR'
-type = 'REQUIRED'
+version = 'Nzz0cABp'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'fRiHVvU7'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
 type = 'REQUIRED'

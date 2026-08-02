@@ -10,7 +10,7 @@
             "id": "minecraft:tadpole_spawn_egg",
             "nbt": "{\"!minecraft:rarity\":{},\"minecraft:custom_data\":{\"tooltrims:item\":\"template\"},\"minecraft:custom_model_data\":315001,\"minecraft:custom_name\":\u0027{\"italic\":false,\"translate\":\"item.minecraft.smithing_template\"}\u0027,\"minecraft:entity_data\":{Tags:[\"tooltrims.leftover\",\"tooltrims.linear\"],id:\"minecraft:marker\"},\"minecraft:lore\":[\u0027{\"color\":\"gray\",\"italic\":false,\"translate\":\"trim_pattern.tooltrims.linear\"}\u0027,\u0027{\"italic\":false,\"text\":\"\"}\u0027,\u0027{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.minecraft.smithing_template.applies_to\"}\u0027,\u0027{\"extra\":[{\"color\":\"blue\",\"italic\":false,\"translate\":\"template.tooltrims.applies_to\"}],\"text\":\" \"}\u0027,\u0027{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.minecraft.smithing_template.ingredients\"}\u0027,\u0027{\"extra\":[{\"color\":\"blue\",\"italic\":false,\"translate\":\"item.minecraft.smithing_template.armor_trim.ingredients\"}],\"text\":\" \"}\u0027]}"
           },
-          "after": "minecraft:bolt_armor_trim_smithing_template"
+          "after": "item:minecraft:bolt_armor_trim_smithing_template"
         },
         {
           "stack": {
@@ -18,7 +18,7 @@
             "id": "minecraft:silverfish_spawn_egg",
             "nbt": "{\"!minecraft:rarity\":{},\"minecraft:custom_data\":{\"tooltrims:item\":\"template\"},\"minecraft:custom_model_data\":315001,\"minecraft:custom_name\":\u0027{\"italic\":false,\"translate\":\"item.minecraft.smithing_template\"}\u0027,\"minecraft:entity_data\":{Tags:[\"tooltrims.leftover\",\"tooltrims.tracks\"],id:\"minecraft:marker\"},\"minecraft:lore\":[\u0027{\"color\":\"gray\",\"italic\":false,\"translate\":\"trim_pattern.tooltrims.tracks\"}\u0027,\u0027{\"italic\":false,\"text\":\"\"}\u0027,\u0027{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.minecraft.smithing_template.applies_to\"}\u0027,\u0027{\"extra\":[{\"color\":\"blue\",\"italic\":false,\"translate\":\"template.tooltrims.applies_to\"}],\"text\":\" \"}\u0027,\u0027{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.minecraft.smithing_template.ingredients\"}\u0027,\u0027{\"extra\":[{\"color\":\"blue\",\"italic\":false,\"translate\":\"item.minecraft.smithing_template.armor_trim.ingredients\"}],\"text\":\" \"}\u0027]}"
           },
-          "after": "minecraft:bolt_armor_trim_smithing_template"
+          "after": "item:minecraft:bolt_armor_trim_smithing_template"
         },
         {
           "stack": {
@@ -26,7 +26,7 @@
             "id": "minecraft:cod_spawn_egg",
             "nbt": "{\"!minecraft:rarity\":{},\"minecraft:custom_data\":{\"tooltrims:item\":\"template\"},\"minecraft:custom_model_data\":315001,\"minecraft:custom_name\":\u0027{\"italic\":false,\"translate\":\"item.minecraft.smithing_template\"}\u0027,\"minecraft:entity_data\":{Tags:[\"tooltrims.leftover\",\"tooltrims.charge\"],id:\"minecraft:marker\"},\"minecraft:lore\":[\u0027{\"color\":\"gray\",\"italic\":false,\"translate\":\"trim_pattern.tooltrims.charge\"}\u0027,\u0027{\"italic\":false,\"text\":\"\"}\u0027,\u0027{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.minecraft.smithing_template.applies_to\"}\u0027,\u0027{\"extra\":[{\"color\":\"blue\",\"italic\":false,\"translate\":\"template.tooltrims.applies_to\"}],\"text\":\" \"}\u0027,\u0027{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.minecraft.smithing_template.ingredients\"}\u0027,\u0027{\"extra\":[{\"color\":\"blue\",\"italic\":false,\"translate\":\"item.minecraft.smithing_template.armor_trim.ingredients\"}],\"text\":\" \"}\u0027]}"
           },
-          "after": "minecraft:bolt_armor_trim_smithing_template"
+          "after": "item:minecraft:bolt_armor_trim_smithing_template"
         },
         {
           "stack": {
@@ -34,7 +34,7 @@
             "id": "minecraft:snow_golem_spawn_egg",
             "nbt": "{\"!minecraft:rarity\":{},\"minecraft:custom_data\":{\"tooltrims:item\":\"template\"},\"minecraft:custom_model_data\":315001,\"minecraft:custom_name\":\u0027{\"italic\":false,\"translate\":\"item.minecraft.smithing_template\"}\u0027,\"minecraft:entity_data\":{Tags:[\"tooltrims.leftover\",\"tooltrims.frost\"],id:\"minecraft:marker\"},\"minecraft:lore\":[\u0027{\"color\":\"gray\",\"italic\":false,\"translate\":\"trim_pattern.tooltrims.frost\"}\u0027,\u0027{\"italic\":false,\"text\":\"\"}\u0027,\u0027{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.minecraft.smithing_template.applies_to\"}\u0027,\u0027{\"extra\":[{\"color\":\"blue\",\"italic\":false,\"translate\":\"template.tooltrims.applies_to\"}],\"text\":\" \"}\u0027,\u0027{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.minecraft.smithing_template.ingredients\"}\u0027,\u0027{\"extra\":[{\"color\":\"blue\",\"italic\":false,\"translate\":\"item.minecraft.smithing_template.armor_trim.ingredients\"}],\"text\":\" \"}\u0027]}"
           },
-          "after": "minecraft:bolt_armor_trim_smithing_template"
+          "after": "item:minecraft:bolt_armor_trim_smithing_template"
         }
     ]
 }

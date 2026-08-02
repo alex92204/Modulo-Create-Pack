@@ -6,7 +6,7 @@ const playSound = 'playSound(net.minecraft.world.entity.Entity,net.minecraft.cor
 const survivalDimensions = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
 /* Advancement namespaces that should not be revoked */
 const essentialAdvancements = ["mcpaint", "eroxified2", "vanillatweaks", "custom_roleplay_data", "sb", "painting_picker", "silence_mobs"]
-const rootAdvancements = ["aeronautics:root", "create:root", "simulated:root", "minecraft:story/root", "pipeorgans:csosintro"]
+const rootAdvancements = ["aeronautics:root", "create:root", "simulated:root", "minecraft:story/root",  "minecraft:husbandry/root", "minecraft:adventure/root", "minecraft:nether/root", "minecraft:end/root", "pipeorgans:csosintro"]
 
 function playerGamemode(serverPlayer) {
     const player = /** @type {Internal.ServerPlayer}*/ (/** @type {any} */ (serverPlayer))
@@ -26,11 +26,14 @@ function loadAndUpdate(serverPlayer, gamemode) {
     const pData = player.persistentData
     let cosArmor = $CosArmorAPI.getCAStacks(player.uuid)
 
-    // Previously used clear (or set to air) before merging, seems to not be needed
+    player.inventory.clear()
+    player.enderChestInventory.clear()
+
     player.mergeNbt({Inventory: pData.get(`${gamemode}InventoryData`)});
     player.mergeNbt({EnderItems: pData.get(`${gamemode}EnderChest`)})
     player.setXp(pData.get(`${gamemode}Xp`))
     player.setFoodLevel(pData.get(`${gamemode}Food`))
+    player.setSaturation(pData.get(`${gamemode}Saturation`))
     player.setHealth(pData.get(`${gamemode}Health`))
     player.mergeNbt({"neoforge:attachments": pData.get(`${gamemode}NeoforgeAttachments`)})
 
@@ -56,6 +59,7 @@ function savePData(serverPlayer, gamemode) {
     pData.put(`${gamemode}NeoforgeAttachments`, player.nbt.get("neoforge:attachments"))
     pData.putInt(`${gamemode}Xp`, getCurrentXp(player))
     pData.putInt(`${gamemode}Food`, player.getFoodLevel())
+    pData.putInt(`${gamemode}Saturation`, player.getSaturation())
     pData.putInt(`${gamemode}Health`, player.getHealth())
     for (let i = 0; i <= 3; i++) {
         pData.putString(`${gamemode}Cos${i}`, cosArmor.getItem(i))
@@ -138,12 +142,23 @@ ServerEvents.commandRegistry(event => {
     const { commands: Commands, arguments: Arguments } = event
   
     event.register(Commands.literal('test')
-        .executes(ctx => test(ctx.source.player))
+        .then(Commands.argument('target', Arguments.PLAYER.create(event))
+            .executes(ctx => test(Arguments.PLAYER.getResult(ctx, 'target')))
+        )
     )
     const test = (player) => {
-        console.log(player.getUsername() + " has " + getCurrentXp(player))
+        console.log(player.getUsername() + ": " + player.persistentData.get("survivalInventoryData"))
         return 1
     }
+})
+
+PlayerEvents.respawned(event => {
+    const { player } = event
+    
+    if (playerGamemode(player) == "survival") return;
+    
+    swapToDimension(player, "survival")
+    loadAndUpdate(player, "survival")
 })
 
 /* DIMENSION SWITCH COMMAND */
@@ -184,7 +199,7 @@ ServerEvents.commandRegistry(event => {
 
 /* COMPLEX SWITCH */
 BlockEvents.rightClicked('kubejs:complex_door', event => {
-    const { player, block } = event
+    const { player, block, level } = event
     let dimension = player.level.dimension.toString()
 
     if (dimension == "moddedulo:creative") {
@@ -197,6 +212,7 @@ BlockEvents.rightClicked('kubejs:complex_door', event => {
         savePData(player, "survival")
         swapToDimension(player, "adventure")
         loadAndUpdate(player, "adventure")
+        player.setFoodLevel(9999)
         event.level[playSound](null, player.blockPosition(), 'kubejs:block.complex_door.close', 'blocks', 1, 1)
         player.swing()
     }

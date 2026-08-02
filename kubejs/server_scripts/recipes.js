@@ -539,12 +539,12 @@ ServerEvents.recipes(event => {
         T: 'minecraft:string'
         }
     )
-    event.recipes.create.filling('supplementaries:antique_ink', [Fluid.ingredientOf('create:potion', {
+    /* event.recipes.create.filling('supplementaries:antique_ink', [Fluid.ingredientOf('create:potion', {
         'create:potion_fluid_bottle_type': 'regular',
         'minecraft:potion_contents': {
             potion: 'minecraft:slowness'
         },
-    }).withAmount(250), 'minecraft:ink_sac'])
+    }).withAmount(250), 'minecraft:ink_sac']) */
     
     // Ice remove dye
     event.shapeless(`supplementaries:trapped_present`, ['#supplementaries:presents', 'minecraft:ice'])

@@ -49,8 +49,6 @@ flavors = "shaders"
 [metafile."/shaderpacks/complimentary-reimagined.pw.toml"]
 flavors = "shaders"
 
-[metafile.crash-assistant]
-flavors = "admin"
 [metafile.observable]
 flavors = ["admin", "server"]
 [metafile.obscuras-panoramica]
@@ -70,6 +68,8 @@ flavors = ["admin", "server"]
 [metafile.adventure-platform-mod]
 flavors = ["admin", "server"]
 
+[metafile.crash-assistant]
+flavors = "modpack"
 [metafile.controlling]
 flavors = "modpack"
 [metafile.yeetus-experimentus]
