@@ -38,7 +38,7 @@
       "teal",
       "Cloudiness changed, updating geometry",
       "dndecor:blockstates/text_plate.json",
-      "(ClientboundSableSnapshotDualPacket) was larger than expected"
+      "SableUDPPacket SNAPSHOT (ClientboundSableSnapshotDualPacket) was larger than expected, found 27 bytes extra"
     ],
     "regex": [
       "Disconnecting VANILLA connection attempt",

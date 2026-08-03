@@ -34,7 +34,7 @@ hash = "aa50700c7ac95e9608accae9b6218764da411b2e3201ae775101c78c6cf5ec76"
 
 [[files]]
 file = "config/logbegone.json"
-hash = "68b0013723e418017de9cbdcfec90b758dfa248776c200c29a2da70d3cf5c04f"
+hash = "57e6478d8e45ddd2b7a1514840e50cb643a82e996c15b1e9db2790c92d7dffb4"
 
 [[files]]
 file = "config/vanillabackport-client.toml"
@@ -842,7 +842,7 @@ hash = "951b7a9c4ae90bbae0f8894da51b651db2854895c64efb7deb7fd38139544373"
 
 [[files]]
 file = "configureddefaults/config/supplementaries-common.toml"
-hash = "a3c5b543a82c76152d3b2f7111123ac9f22a940d85078d14f591bf87553632c5"
+hash = "52c201b0dadc3f33f27093f1d23dd98cc1e5f8aa6f8d7d1ff1122478ef4a471b"
 
 [[files]]
 file = "configureddefaults/config/tiny_takeover_backport.json"
@@ -15427,6 +15427,11 @@ hash = "4bcaa0359543e6ecc6c5c6e2ca5c6af964870dd0926fe4f3131d5164cacdcafa"
 metafile = true
 
 [[files]]
+file = "mods/better-modlist.pw.toml"
+hash = "0e40a5f627d8889acebf2a7647c8e724b35bfe6701351841df2a9ba2140626ff"
+metafile = true
+
+[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "ac0bb6a6660040c6f1990a17176a8a62937e34fd74a310eb574b345a23257b33"
 metafile = true
@@ -15673,7 +15678,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi-plus-backport.pw.toml"
-hash = "e2855207b3c12b318d235d5882794bf1c0f72d9758568a8fa97dfae3df15232a"
+hash = "d0f99a9aa168abe0f9c11a4032a100d912fc1254611ad066a87c406d3dead1b3"
 metafile = true
 
 [[files]]
@@ -15729,11 +15734,6 @@ metafile = true
 [[files]]
 file = "mods/flerovium.pw.toml"
 hash = "c8eda7c86deb3e5246c10419d57292e8e11b8769110e1159bdf6fda36713ed2a"
-metafile = true
-
-[[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "e116aa35a3b573e487213bd44b82ee133e823829a7d90cd990f3766c7997cff3"
 metafile = true
 
 [[files]]
@@ -15868,7 +15868,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "751564eea346d063704197cd8faf89d105455f10f0d412f7f262ea2920dbdf60"
+hash = "6ad7e22eb723fe86f7573e1f0838171491c6de55f5da3969fc8f946b056cc84e"
 metafile = true
 
 [[files]]
@@ -16193,4 +16193,4 @@ metafile = true
 
 [[files]]
 file = "unsup.toml"
-hash = "05192aab8b1bff361d76b3d97cdbd5ac3180a9a5aedf9d9b8094e7be60636b80"
+hash = "146a6ead40e1c807c76df093c0554836b32166497eae4182b5d2a968d76bfc73"

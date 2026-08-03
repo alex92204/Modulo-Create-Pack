@@ -68,6 +68,8 @@ flavors = ["admin", "server"]
 [metafile.adventure-platform-mod]
 flavors = ["admin", "server"]
 
+[metafile.crash-assistant]
+flavors = "modpack"
 [metafile.controlling]
 flavors = "modpack"
 [metafile.yeetus-experimentus]
