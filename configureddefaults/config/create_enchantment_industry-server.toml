@@ -73,7 +73,7 @@
 		#.
 		#If the printing of Enchanted Books function of Printers should be enabled.
 		#[@cui:RequiresReload:server]
-		enableEnchantedBookPrinting = true
+		enableEnchantedBookPrinting = false
 		#.
 		#If the printing of Create's copiable items function of Printers should be enabled.
 		#[@cui:RequiresReload:server]

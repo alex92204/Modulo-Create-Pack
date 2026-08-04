@@ -1,18 +1,21 @@
-filename = 'AsyncParticles-21.1.3.1+1.21.1.jar'
+filename = 'AsyncParticles-21.1.4.0-alpha.1+1.21.1.jar'
 name = 'AsyncParticles'
 side = ''
-x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '21.1.3.1'
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '21.1.4.0-alpha.1'
 
 [download]
-hash = '3ca0937b8332486d9cfac5187839f390b592f8043747b25aa2109483f657a2c02e5a153177849d7ba30141f8df84313055b5902b9aa8d0d282bd4c5876742c52'
+hash = 'a0d8f952dfc8368226c65bd84979e765a3635ee15d989c7ed3f5c1c9f3d2cfe2296a7b44d26426e0df327c58487ba48a9db8d69d807329ab502ed7019a385ed8'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/c3onkd5k/versions/z7WoNZFA/AsyncParticles-21.1.3.1%2B1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/c3onkd5k/versions/C3vI0txX/AsyncParticles-21.1.4.0-alpha.1%2B1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'c3onkd5k'
-version = 'z7WoNZFA'
+version = 'C3vI0txX'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'OPTIONAL'

@@ -5,6 +5,10 @@ file = "README.md"
 hash = "5b6d7c2dd61d192f163468dc2eebeed74f0afd478d1070de22cb4c94ee4438ad"
 
 [[files]]
+file = "config/amendments-common.toml"
+hash = "2be9d399bc6a1342b9f872043700d5e30f8d2a0e500b37e3c7a00f9eb7e6a60a"
+
+[[files]]
 file = "config/emixx/emixx-client.toml"
 hash = "fd382582eee965a12e2669aa023132ad95b10ae06bb1563b8fb4dec2d6fe9232"
 
@@ -35,6 +39,14 @@ hash = "aa50700c7ac95e9608accae9b6218764da411b2e3201ae775101c78c6cf5ec76"
 [[files]]
 file = "config/logbegone.json"
 hash = "57e6478d8e45ddd2b7a1514840e50cb643a82e996c15b1e9db2790c92d7dffb4"
+
+[[files]]
+file = "config/recreative/recreative.json"
+hash = "a8e66ea7866bca9af0aaa96fa89596c3035ccd47123ac79b8733703617f7d4be"
+
+[[files]]
+file = "config/scholar-common.toml"
+hash = "b0a391c77f1f6682d951c7aee9586d76b3fd187ab69c3fac12a72b26ac0958d7"
 
 [[files]]
 file = "config/vanillabackport-client.toml"
@@ -98,7 +110,7 @@ hash = "a9c155f8390d34e0eaef8d6785e5bae167ae46a2a06741b005fec0971aa7d6d2"
 
 [[files]]
 file = "configureddefaults/config/amendments-common.toml"
-hash = "88a7589f5f621ab65ccf7445b1553206390ae7e89a99d04e129fdd195bb40feb"
+hash = "2be9d399bc6a1342b9f872043700d5e30f8d2a0e500b37e3c7a00f9eb7e6a60a"
 
 [[files]]
 file = "configureddefaults/config/analogaudio/analogaudio.client.toml"
@@ -287,6 +299,34 @@ hash = "2e77b1d93b40ce3f381ad7eb2a9e6d7148de917518be5c2616939a4369c4b140"
 [[files]]
 file = "configureddefaults/config/create-server.toml"
 hash = "36216a05f3ed63106ba587c8c24ed6315385829e7f3dae695dcf545aba41a270"
+
+[[files]]
+file = "configureddefaults/config/create_dragons_plus-client.toml"
+hash = "cf30f0e99ef65fe80e80481bf9aaafefdbbf97adb84c0c3611ac2d9ca3cf8a28"
+
+[[files]]
+file = "configureddefaults/config/create_dragons_plus-common.toml"
+hash = "a934f0d3f14b06094b0a5d968cec8b4fbc9a976f8ea056ad76ad296e42815d42"
+
+[[files]]
+file = "configureddefaults/config/create_dragons_plus-server.toml"
+hash = "2075390e91501a02a25b058743c661b3a19c8fed3b99727984dc684aae5cd75e"
+
+[[files]]
+file = "configureddefaults/config/create_dragons_plus-simulated-extension-server.toml"
+hash = "60bad6819e405b276d23b238592add8c7ec92062951d83a812d25a63ab5b6b83"
+
+[[files]]
+file = "configureddefaults/config/create_enchantment_industry-client.toml"
+hash = "f1c6a25f81ec0f112e431b9064088e641c37b33a1aa16eed2bc4d03884c2b39c"
+
+[[files]]
+file = "configureddefaults/config/create_enchantment_industry-common.toml"
+hash = "ba7ae48de21489764763fbcfa70a0751114cec08af0d0dfebee03af1f5892ca1"
+
+[[files]]
+file = "configureddefaults/config/create_enchantment_industry-server.toml"
+hash = "229c5a870202337cb3a1206a5ae979bd91875d616a8de4c2f85439a3ae26934f"
 
 [[files]]
 file = "configureddefaults/config/create_power_loader-server.toml"
@@ -681,12 +721,8 @@ file = "configureddefaults/config/railways-server.toml"
 hash = "ffa9360afd80c2952b87b6892d6f782a3e9e82dbba98613a728d4fc4ecd647c1"
 
 [[files]]
-file = "configureddefaults/config/recreative/example_tabs.json.disabled"
-hash = "ec4da0e45340edbd147efb3a76a370cd48bf9fc159607bed2e8f97ec0819a7a7"
-
-[[files]]
 file = "configureddefaults/config/recreative/recreative.json"
-hash = "70559859e83ee0b361652b5e4465cf5bfa30e11d1f75f144da85db17ba526c06"
+hash = "a8e66ea7866bca9af0aaa96fa89596c3035ccd47123ac79b8733703617f7d4be"
 
 [[files]]
 file = "configureddefaults/config/recreative_settings.json"
@@ -718,11 +754,11 @@ hash = "30611be78edf1167f0f07f0ec9b68e41f4a7a2cf75b606b6151e369f5ac5ec48"
 
 [[files]]
 file = "configureddefaults/config/scholar-client.toml"
-hash = "cfe04773e5c250ea02cc3e8cfd56b49cd9499e24a218c66838dd180db9e8d089"
+hash = "1f9918737141d77a7c4bf809f09e40b3a5b8a09171cd38a27e443a05c5cc8037"
 
 [[files]]
 file = "configureddefaults/config/scholar-common.toml"
-hash = "797cdb72c29122c892a3ea0408930207ac07e87d1a11499d43d37a11f9fac10b"
+hash = "b0a391c77f1f6682d951c7aee9586d76b3fd187ab69c3fac12a72b26ac0958d7"
 
 [[files]]
 file = "configureddefaults/config/seamless_loading_screen.json"
@@ -767,6 +803,14 @@ hash = "fbcf40465f120ceac12fdc297e8e196ca2774936406404165402d94009f0e53c"
 [[files]]
 file = "configureddefaults/config/skinlayers.json"
 hash = "11d0746b9caacb275aaed18ed2dd202b69a692c61d29dd041c3ee7c843914711"
+
+[[files]]
+file = "configureddefaults/config/snowrealmagic-client.yaml"
+hash = "34909564dc66fb400f716437577c349965144e46febfb432a388aed3b0fe81e9"
+
+[[files]]
+file = "configureddefaults/config/snowrealmagic-common.yaml"
+hash = "8968a2fee79d8e89dfc4ef1592a678c1d789a983eb83fa713432682042e6de22"
 
 [[files]]
 file = "configureddefaults/config/sodium-fingerprint.json"
@@ -914,11 +958,19 @@ hash = "503965e9f46f377a2e7f177510d98ec5891242f56ae78424f5797fed2f6c26f1"
 
 [[files]]
 file = "configureddefaults/emi.json"
-hash = "3f8953413940449b4e1d5cfbed795ee02123e8723658aa666e98f05457c4a159"
+hash = "618add51cfbf0476e636ab9da18eeb80b04511739952a0009f41d7e42a4aaec9"
+
+[[files]]
+file = "configureddefaults/mods/CrashAssistant-neoforge-1.20.6-1.21.4-1.11.11.jar"
+hash = "db1c4fe176bec97268cfed87488c2040f408dbdf024b5173847ed1e39b0f2dd6"
 
 [[files]]
 file = "configureddefaults/shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3.txt"
 hash = "867a0b9b57667a21fb7e7c15c8fa5411689a4c6c8582653c037a2797ce16b471"
+
+[[files]]
+file = "emi.json"
+hash = "618add51cfbf0476e636ab9da18eeb80b04511739952a0009f41d7e42a4aaec9"
 
 [[files]]
 file = "gitattributes"
@@ -3774,7 +3826,7 @@ hash = "7fddf011aef9885e3528c9fc3539cbb1fda27139ab1b8bf27780c450958d63ed"
 
 [[files]]
 file = "kubejs/assets/minecraft/texts/splashes.txt"
-hash = "a40dd3507968ebc25f9e24970593908c29752e41c325dd8b77f6ef4f5b3986ee"
+hash = "ad6a661fda6ed24dd805c8bbd00fcc9819718f69b4644a74f841554f280cfd2f"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/block/redstone_torch.png"
@@ -15314,7 +15366,7 @@ hash = "f312a1006906fb7b7a409715c0567b4fe169a5346cb966143b63b64dc8dc16a6"
 
 [[files]]
 file = "kubejs/server_scripts/dimension_swap.js"
-hash = "6f90abb9ccda7164da0f13398d9f17eb907328ae277bcf190f20786d89baa542"
+hash = "38bb8d447a8ce8082bec4eae1ff99bee569551d4f337cefc2919040d8bb8fdf7"
 
 [[files]]
 file = "kubejs/server_scripts/info_command.js"
@@ -15334,11 +15386,11 @@ hash = "11a7003839ad740649c990c2384bef5a095d3357dadc1571c6ee89220d2f3e5f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "d3a41418aaffd781436707bc127ca6752f9929b21dd9bdf887e51651e91e9ddc"
+hash = "502f3e3435ea24f0b4a3a1b95cf602a45fc5247e798c36bdc824922553b5b630"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "d234ee531fc2b5b4acae37be66bddd5b99263fdd5f70c86fdbd4ae786c578d4d"
+hash = "f276eda9324ac12c0ef4bb7063f1de4ade4253bb7808f1bcbc26d1230c5ff6a7"
 
 [[files]]
 file = "kubejs/startup_scripts/creative_tabs.js"
@@ -15408,7 +15460,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "94faf838a1903d4c04381e607935a9344d514011471edd848f845e23dd31417a"
+hash = "875802f1a2483e0daedcce532396127aa572ac8f9e73fd1961d5cbc50002523d"
 metafile = true
 
 [[files]]
@@ -15473,7 +15525,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "97842930c1de76bf8fdacd355562e19cb2eddbe38d369285d2ca1e1ff9d2415f"
+hash = "d8bffb5d01e2aa28594bf7807ea18a319e68d5b69e3a1e21b532cde1a5f0ccb7"
 metafile = true
 
 [[files]]
@@ -15562,8 +15614,18 @@ hash = "e71b0e1fb607d083dc0150bc78c9c5d7935668361d267211fd5656b99492d3df"
 metafile = true
 
 [[files]]
+file = "mods/create-dragons-plus.pw.toml"
+hash = "c27444e285bf0619e3ce237cdeb9aec615fc03b319b50dd97b36bf75a804152c"
+metafile = true
+
+[[files]]
 file = "mods/create-encased.pw.toml"
 hash = "5165b102f3d31e4d3ece1d86ac469ff7a42ba4461fe02a563317aa2e41794a6f"
+metafile = true
+
+[[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "203ba729aa606bf1172671999d7afcde5c3e5fbc2f45f4f3b439e952fff3c2ff"
 metafile = true
 
 [[files]]
@@ -15789,6 +15851,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "f86a10950c4557243ef9235f121a35306df5ff9238cf2191071991ea38392b9c"
+metafile = true
+
+[[files]]
+file = "mods/kiwi.pw.toml"
+hash = "b57cb7b0b579deca497e20cd8fa9873f375dedb429b64b9ced4933bb984b5c25"
 metafile = true
 
 [[files]]
@@ -16039,6 +16106,11 @@ metafile = true
 [[files]]
 file = "mods/simulated-gauges.pw.toml"
 hash = "590c7c9d045b92b42206a4e3379607d4d562250586f38c30bc91db6bfaf9fa14"
+metafile = true
+
+[[files]]
+file = "mods/snow-real-magic.pw.toml"
+hash = "d27c64628e12263fec5599c2768817f1398a66f64cf06ff518555ff8c5ebb9dc"
 metafile = true
 
 [[files]]
