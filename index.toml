@@ -581,6 +581,10 @@ file = "configureddefaults/config/jade/sort-order.json"
 hash = "084afa8859dbd423ac842b7aa840f9866957ae2abcb32d753d45816d3e68c437"
 
 [[files]]
+file = "configureddefaults/config/kiwi-client.yaml"
+hash = "078ce6c09f00c7822e69830c79bd1871b74bb3148fb02a2e25003b3500b00700"
+
+[[files]]
 file = "configureddefaults/config/krypton_fnp.yaml"
 hash = "7637131dbf6d97f0edca39274fa1afdf43260052c0b62649faf51283c5a1f0be"
 
