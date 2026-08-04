@@ -15398,7 +15398,7 @@ hash = "f276eda9324ac12c0ef4bb7063f1de4ade4253bb7808f1bcbc26d1230c5ff6a7"
 
 [[files]]
 file = "kubejs/startup_scripts/creative_tabs.js"
-hash = "f1c65e51723fd2465f66d4876d33bad8a446f7a6bcb36741fa1e594e568ed64e"
+hash = "734083852c69b45cfad9cfdf61c2051c2f79c5aa136171c2b129b6d093b85a48"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
