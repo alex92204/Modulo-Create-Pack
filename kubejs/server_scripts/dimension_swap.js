@@ -6,7 +6,7 @@ const playSound = 'playSound(net.minecraft.world.entity.Entity,net.minecraft.cor
 const survivalDimensions = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
 /* Advancement namespaces that should not be revoked */
 const essentialAdvancements = ["mcpaint", "eroxified2", "vanillatweaks", "custom_roleplay_data", "sb", "painting_picker", "silence_mobs"]
-const rootAdvancements = ["aeronautics:root", "create:root", "simulated:root", "minecraft:story/root",  "minecraft:husbandry/root", "minecraft:adventure/root", "minecraft:nether/root", "minecraft:end/root", "pipeorgans:csosintro"]
+const rootAdvancements = ["create_enchantment_industry:root", "aeronautics:root", "create:root", "simulated:root", "minecraft:story/root",  "minecraft:husbandry/root", "minecraft:adventure/root", "minecraft:nether/root", "minecraft:end/root", "pipeorgans:csosintro"]
 
 function playerGamemode(serverPlayer) {
     const player = /** @type {Internal.ServerPlayer}*/ (/** @type {any} */ (serverPlayer))
@@ -152,20 +152,53 @@ ServerEvents.commandRegistry(event => {
     }
 })
 
+/* NativeEvents.onEvent($EntityTravelToDimensionEvent, event => {
+    const { entity, dimension } = event
+    if (!entity.isPlayer()) return;
+    const player = entity
+    const fromDim = player.level.dimension
+    const toDim = dimension.location()
+
+    console.log("----------------------------------------------------------------------")
+    console.log(player.getUsername() + " travelled from " + fromDim + " to " + toDim)
+
+    if (survivalDimensions.includes(fromDim) && survivalDimensions.includes(toDim)) return;
+
+}) */
+
 PlayerEvents.respawned(event => {
     const { player } = event
     
-    if (playerGamemode(player) == "survival") return;
-    
-    swapToDimension(player, "survival")
-    loadAndUpdate(player, "survival")
+    if (playerGamemode(player) != "survival") {
+        swapToDimension(player, "survival")
+        loadAndUpdate(player, "survival")
+    }
 })
+
+/* EntityEvents.death(event => {
+    const { entity } = event
+    if (!entity.isPlayer()) return;
+    const player = entity
+    let dim = player.level.dimension.toString()
+
+    if (!survivalDimensions.includes(dim)) {
+        console.log("--------------------------------------------")
+        console.log(player.getUsername() + " died in " + dim)
+
+        player.respawn()
+        swapToDimension(player, "survival")
+        loadAndUpdate(player, "survival")
+    }
+}) */
 
 /* DIMENSION SWITCH COMMAND */
 ServerEvents.commandRegistry(event => {
     const { commands: Commands, arguments: Arguments } = event
   
     event.register(Commands.literal('creative')
+        .executes(ctx => creativeSwitch(ctx.source.player))
+    )
+    event.register(Commands.literal('cr')
         .executes(ctx => creativeSwitch(ctx.source.player))
     )
     const creativeSwitch = (player) => {

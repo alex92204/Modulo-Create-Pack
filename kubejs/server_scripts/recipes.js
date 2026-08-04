@@ -99,10 +99,6 @@ ServerEvents.recipes(event => {
     event.recipes.create.filling('minecraft:weathered_copper_golem_statue', [Fluid.of('minecraft:water'), 'minecraft:exposed_copper_golem_statue'])
     event.recipes.create.filling('minecraft:oxidized_copper_golem_statue', [Fluid.of('minecraft:water'), 'minecraft:weathered_copper_golem_statue'])
 
-    event.recipes.create.filling('copperagebackport:exposed_copper_button', [Fluid.of('minecraft:water'), 'copperagebackport:copper_button'])
-    event.recipes.create.filling('copperagebackport:weathered_copper_button', [Fluid.of('minecraft:water'), 'copperagebackport:exposed_copper_button'])
-    event.recipes.create.filling('copperagebackport:oxidized_copper_button', [Fluid.of('minecraft:water'), 'copperagebackport:weathered_copper_button'])
-
     event.recipes.create.filling('dndecor:exposed_copper_floor', [Fluid.of('minecraft:water'), 'dndecor:copper_floor'])
     event.recipes.create.filling('dndecor:weathered_copper_floor', [Fluid.of('minecraft:water'), 'dndecor:exposed_copper_floor'])
     event.recipes.create.filling('dndecor:oxidized_copper_floor', [Fluid.of('minecraft:water'), 'dndecor:weathered_copper_floor'])
@@ -128,10 +124,6 @@ ServerEvents.recipes(event => {
     event.recipes.create.deploying('minecraft:copper_golem_statue', ['minecraft:exposed_copper_golem_statue', Ingredient.of('#minecraft:axes')]).keepHeldItem()
     event.recipes.create.deploying('minecraft:exposed_copper_golem_statue', ['minecraft:weathered_copper_golem_statue', Ingredient.of('#minecraft:axes')]).keepHeldItem()
     event.recipes.create.deploying('minecraft:weathered_copper_golem_statue', ['minecraft:oxidized_copper_golem_statue', Ingredient.of('#minecraft:axes')]).keepHeldItem()
-
-    event.recipes.create.deploying('copperagebackport:copper_button', ['copperagebackport:exposed_copper_button', Ingredient.of('#minecraft:axes')]).keepHeldItem()
-    event.recipes.create.deploying('copperagebackport:exposed_copper_button', ['copperagebackport:weathered_copper_button', Ingredient.of('#minecraft:axes')]).keepHeldItem()
-    event.recipes.create.deploying('copperagebackport:weathered_copper_button', ['copperagebackport:oxidized_copper_button', Ingredient.of('#minecraft:axes')]).keepHeldItem()
 
     // Removing Wax
 
@@ -160,11 +152,6 @@ ServerEvents.recipes(event => {
     event.recipes.create.deploying('minecraft:weathered_copper_golem_statue', ['minecraft:waxed_weathered_copper_golem_statue', Ingredient.of('#minecraft:axes')]).keepHeldItem()
     event.recipes.create.deploying('minecraft:oxidized_copper_golem_statue', ['minecraft:waxed_oxidized_copper_golem_statue', Ingredient.of('#minecraft:axes')]).keepHeldItem()
 
-    event.recipes.create.deploying('copperagebackport:copper_button', ['copperagebackport:waxed_copper_button', Ingredient.of('#minecraft:axes')]).keepHeldItem()
-    event.recipes.create.deploying('copperagebackport:exposed_copper_button', ['copperagebackport:waxed_exposed_copper_button', Ingredient.of('#minecraft:axes')]).keepHeldItem()
-    event.recipes.create.deploying('copperagebackport:weathered_copper_button', ['copperagebackport:waxed_weathered_copper_button', Ingredient.of('#minecraft:axes')]).keepHeldItem()
-    event.recipes.create.deploying('copperagebackport:oxidized_copper_button', ['copperagebackport:waxed_oxidized_copper_button', Ingredient.of('#minecraft:axes')]).keepHeldItem()
-
     // Honeycomb Block Waxing
 
     event.recipes.create.deploying('minecraft:waxed_copper_bars', ['minecraft:copper_bars', Ingredient.of('minecraft:honeycomb_block')]).keepHeldItem()
@@ -191,11 +178,6 @@ ServerEvents.recipes(event => {
     event.recipes.create.deploying('minecraft:waxed_exposed_copper_golem_statue', ['minecraft:exposed_copper_golem_statue', Ingredient.of('minecraft:honeycomb_block')]).keepHeldItem()
     event.recipes.create.deploying('minecraft:waxed_weathered_copper_golem_statue', ['minecraft:weathered_copper_golem_statue', Ingredient.of('minecraft:honeycomb_block')]).keepHeldItem()
     event.recipes.create.deploying('minecraft:waxed_oxidized_copper_golem_statue', ['minecraft:oxidized_copper_golem_statue', Ingredient.of('minecraft:honeycomb_block')]).keepHeldItem()
-
-    event.recipes.create.deploying('copperagebackport:waxed_copper_button', ['copperagebackport:copper_button', Ingredient.of('minecraft:honeycomb_block')]).keepHeldItem()
-    event.recipes.create.deploying('copperagebackport:waxed_exposed_copper_button', ['copperagebackport:exposed_copper_button', Ingredient.of('minecraft:honeycomb_block')]).keepHeldItem()
-    event.recipes.create.deploying('copperagebackport:waxed_weathered_copper_button', ['copperagebackport:weathered_copper_button', Ingredient.of('minecraft:honeycomb_block')]).keepHeldItem()
-    event.recipes.create.deploying('copperagebackport:waxed_oxidized_copper_button', ['copperagebackport:oxidized_copper_button', Ingredient.of('minecraft:honeycomb_block')]).keepHeldItem()
 
     // Deco
     event.stonecutting('createdeco:andesite_window', 'createframed:andesite_alloy_window')
