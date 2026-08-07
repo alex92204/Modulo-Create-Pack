@@ -171,5 +171,14 @@
   "advancements.husbandry.vista.absolute_cinema.description": "Play a VHS Tape on a large screen Television.",
   "block.supplementaries.checker_block": "Checker Tiles",
   "block.supplementaries.checker_slab": "Checker Tiles Slab",
-  "block.dndecor.beam": "Girder Beam"
+  "block.dndecor.beam": "Girder Beam",
+  
+  "rpo.tySnowSideTexture3_0": "Snow Side Texture v3.0",
+  "rpo.tySnowSideTexture3_0.fullSnow": "Full Snow",
+  "rpo.tySnowSideTexture3_0.fullSnow.tooltip": "Experimental",
+  "rpo.tySnowSideTexture3_0.fullSnow.disableBlock": "Disable",
+  "rpo.tySnowSideTexture3_0.fullSnow.allFullBlock": "All Full Block",
+  "rpo.tySnowSideTexture3_0.fullSnow.withoutSnowyBlock": "Without Snowy Block",
+  "rpo.tySnowSideTexture3_0.fullSnow.withoutSnowyBlock.tooltip": "Grass Block, Podzol and Mycelium *use this option if you are using something like 'better snow' from elsewhere",
+  "rpo.tySnowSideTexture3_0.LeavesSupport": "Snow Texture On Leaves"
 }

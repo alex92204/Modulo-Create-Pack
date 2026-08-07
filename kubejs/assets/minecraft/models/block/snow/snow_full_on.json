@@ -1,0 +1,27 @@
+{
+	"textures": {
+		"particle": "block/snow/snow_full",
+		"side_default": "block/snow/snow_full"
+	},
+	"elements": [
+		{
+			"from": [0, -16, 0],
+			"to": [16, 0, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -46.1, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side_default", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side_default", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side_default", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side_default", "cullface": "west"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "snow",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

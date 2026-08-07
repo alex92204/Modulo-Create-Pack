@@ -1,0 +1,7 @@
+{
+    condition: "fullSnow.disableBlock",
+    fallback: [
+        "assets/minecraft/models/block/snow/snow_full_on.json",
+        "assets/minecraft/models/block/snow/snow_full_on2.json"
+    ]
+}

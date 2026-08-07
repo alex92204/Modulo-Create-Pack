@@ -502,7 +502,7 @@ hash = "2e873067595cab75b5e509256969e211709c3c147d08bbc15c4c48305c0eb156"
 
 [[files]]
 file = "configureddefaults/config/horseman-server.toml"
-hash = "97c8d4a504246a2522c0261ed7caddcfc9946a8c2be0142f1b44335543866629"
+hash = "a304c77fc7f080853e801a45bd875b96b52f8284eb34bc73f7fd989814dee1df"
 
 [[files]]
 file = "configureddefaults/config/immediatelyfast.json"
@@ -814,7 +814,7 @@ hash = "34909564dc66fb400f716437577c349965144e46febfb432a388aed3b0fe81e9"
 
 [[files]]
 file = "configureddefaults/config/snowrealmagic-common.yaml"
-hash = "8968a2fee79d8e89dfc4ef1592a678c1d789a983eb83fa713432682042e6de22"
+hash = "215d3fc9d977c7bc06e534068c652d9b7f11f8061ff9681a1a0dbe444e8c7407"
 
 [[files]]
 file = "configureddefaults/config/sodium-fingerprint.json"
@@ -846,7 +846,7 @@ hash = "12f65a872b73c931b0a192d7e95c7d89f7ef7f1fd33f3ee7ff6bbda12fb8845f"
 
 [[files]]
 file = "configureddefaults/config/sophisticatedcore-common.toml"
-hash = "eded290ea66cc8af7e79e960dcc4ad1dec1708d9a14122652fb61076b1160289"
+hash = "bddadd210044fa3c95d4895a16fd8aef1b55a7b76823f3556015c0e15caf4649"
 
 [[files]]
 file = "configureddefaults/config/sound_physics_remastered/occlusion.properties"
@@ -974,7 +974,7 @@ hash = "867a0b9b57667a21fb7e7c15c8fa5411689a4c6c8582653c037a2797ce16b471"
 
 [[files]]
 file = "emi.json"
-hash = "618add51cfbf0476e636ab9da18eeb80b04511739952a0009f41d7e42a4aaec9"
+hash = "77572f1e8c7bcca92e72c318c094d3f806e46d252e31700df75e647d86facfd8"
 
 [[files]]
 file = "gitattributes"
@@ -3593,8 +3593,24 @@ file = "kubejs/assets/minecraft/atlases/blocks.json"
 hash = "7770b94f8ff412127754962d353e637be01bb1e1be2ea882f135e2c17661d49b"
 
 [[files]]
+file = "kubejs/assets/minecraft/fusion/model_modifiers/blocks/1snow_leaves_side.json"
+hash = "88395149b62b17193446203076f0d9665f70834cd91cdda97bfa3da0ca3c9125"
+
+[[files]]
+file = "kubejs/assets/minecraft/fusion/model_modifiers/blocks/1snow_leaves_side.json.rpo"
+hash = "0df02b392a514e1f8ce2c4fdbffa425c558ba4e5c35a6eeee28ee33e8494bc69"
+
+[[files]]
+file = "kubejs/assets/minecraft/fusion/model_modifiers/blocks/1snow_side.json"
+hash = "73a1e959aa05a3971f430e689f9c1d0599e9358e01c2aed1efa70f60c24c3e80"
+
+[[files]]
+file = "kubejs/assets/minecraft/fusion/model_modifiers/blocks/2snow_full.json"
+hash = "4dcc6fb9829b5612ac950dc741644158c63269c669c47d3a6bbc31f0ce824a14"
+
+[[files]]
 file = "kubejs/assets/minecraft/lang/en_us.json"
-hash = "800488d9e273f9bcb35e658bb61f1526a6dcdea5ef1541e36ae2c570294c9949"
+hash = "d509b64414017c23785894f42fe87ecd2a46d686a43f759323c8d975c8d7629f"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/comparator_on.json"
@@ -3647,6 +3663,34 @@ hash = "f4f3bb5551124ad0c41dd06a44cb17bfb8d58d3086442a3c991072ca070dfe1b"
 [[files]]
 file = "kubejs/assets/minecraft/models/block/repeater_4tick_on_locked.json"
 hash = "d90dfd3b4ac2400ef0e882a3081683d75a4f358f1623fa13e012c82f99a93cfd"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/snow/snow_full.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/snow/snow_full.json.rpo"
+hash = "e1f6c68bcca1fead00278de318f2683558bea8da65b2e229cdc01c754d7e2ad4"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/snow/snow_full_on.json"
+hash = "bd98abd47c7871d23b98dfc42d22d00d03ee64fb1d706923dea050521dfefb06"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/snow/snow_full_on.json.rpo"
+hash = "fed18b2af711440c1758a041be72921a1c29c0ea81d26b39cf4fdc4cc108ea63"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/snow/snow_full_on2.json"
+hash = "c892067e652b745481e2d45152a7ebea1843a79737c6ca583ca9a6cdaa541407"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/snow/snow_leaves_side.json"
+hash = "aec64d2b2c3bbd3d0a9fe6a1521a182b95026e41ebc48715c753226f96440c9d"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/snow/snow_side.json"
+hash = "09f059c84efa8444a3882b72fd7ec3a7f6e0a471c0bc64c97e1e93b57e2f2a2f"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/block/template_redstone_torch.json"
@@ -3839,6 +3883,38 @@ hash = "160caba109123055dc002a7471439cb32502cbcb07074524be564782586872a6"
 [[files]]
 file = "kubejs/assets/minecraft/textures/block/redstone_torch_off.png"
 hash = "b37d7c758987039434f942e8b139e8e5dc6e52e45c7d3f595f9d54a101a3fea1"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/snow/snow_full.png"
+hash = "37f0924436e50903e6965a4a7f427a69ad84dcd5830a06800ac50a2ae4356ff4"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/snow/snow_full.png.mcmeta"
+hash = "ffdfe8c47ba71d6fbc1c82d5c8912e7a2283b2d6d25be7b894102a40cbe9524d"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/snow/snow_full2.png"
+hash = "37f0924436e50903e6965a4a7f427a69ad84dcd5830a06800ac50a2ae4356ff4"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/snow/snow_full2.png.mcmeta"
+hash = "2a287713efdad5d4de2331b092b7c7afadb10389af3a06ffdb7f0864d9b78469"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/snow/snow_leaves_side_default.png"
+hash = "8615ea946940460b42189aae2531d262181c83222a31957d3a7ce8696494d47b"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/snow/snow_leaves_side_default.png.mcmeta"
+hash = "e25b06796475b0c7ff455ac1b977eeb22052e1ca043ac1579b359ab1fec89e82"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/snow/snow_side_default.png"
+hash = "8615ea946940460b42189aae2531d262181c83222a31957d3a7ce8696494d47b"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/block/snow/snow_side_default.png.mcmeta"
+hash = "c3bb0d9bc9ade83f2b14cc52343f563795130dcfb07c9c62d6a435b941817e3a"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_0.png"
@@ -12486,7 +12562,7 @@ hash = "097092674df5475588d9618adef7dfc582564b0cdcaabd9bf9012950fd1037c4"
 
 [[files]]
 file = "kubejs/client_scripts/emi_groups.js"
-hash = "009c917964aaecc5cc9bb8b2e15e938a8e8ee67c0d4b06dbc13d2f52f35c2cb9"
+hash = "f198f8c2a66332c3060f9d4af628c9b11df58f656419f409b0c23f2ddc98bec5"
 
 [[files]]
 file = "kubejs/client_scripts/hide_advancements.js"
@@ -15394,7 +15470,7 @@ hash = "502f3e3435ea24f0b4a3a1b95cf602a45fc5247e798c36bdc824922553b5b630"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "f276eda9324ac12c0ef4bb7063f1de4ade4253bb7808f1bcbc26d1230c5ff6a7"
+hash = "bac0072704949747212aa32591ff6660253fc25ee365d2e7b5de58be17572cfe"
 
 [[files]]
 file = "kubejs/startup_scripts/creative_tabs.js"
@@ -15464,7 +15540,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "875802f1a2483e0daedcce532396127aa572ac8f9e73fd1961d5cbc50002523d"
+hash = "4af9fc32bba8060a176313171653d52e8e4f54048413f70efed1b4c51b337ccc"
 metafile = true
 
 [[files]]
@@ -15744,7 +15820,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi-plus-backport.pw.toml"
-hash = "d0f99a9aa168abe0f9c11a4032a100d912fc1254611ad066a87c406d3dead1b3"
+hash = "7a275fdb6266509ec664279205c4a332b2780878f60558b8ba9d749795596f0b"
 metafile = true
 
 [[files]]
@@ -15808,6 +15884,11 @@ hash = "97577bbdcc6b5cac6295e9731aea163e9589d16532b87b8e0e68de288897e613"
 metafile = true
 
 [[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "8280937b4e1160ebea8beaad2328168cfa52fb2faa89c694eaab0035da998b8f"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "320810701022098a72aec7b907adba156bd2615aeb0c30576d7f46c1abe0325c"
 metafile = true
@@ -15854,7 +15935,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "f86a10950c4557243ef9235f121a35306df5ff9238cf2191071991ea38392b9c"
+hash = "9e9826d0b6f2265bb8bae1d052ac94bc204c9d3717c8bf4f35da6b8c882c788c"
 metafile = true
 
 [[files]]
@@ -15929,7 +16010,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "e455206327a3b70d5670a2340915b1ae6fd96bd805a8b651bcca1df61ac6efee"
+hash = "3c8ba4cb87ba77889f6f0503b8b0c224940f2b2fcbe53ac3235cfb1278923f66"
 metafile = true
 
 [[files]]
@@ -16164,7 +16245,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "fb87c537ea91cfec2d6a76d1c9c3453a362aa809b41175d9fe0147dea9865a42"
+hash = "1d5cf9f81bbbd5948a768d3f8b99862a7a4f4d4e6de55777e965f0b7034a9efe"
 metafile = true
 
 [[files]]
@@ -16184,7 +16265,7 @@ metafile = true
 
 [[files]]
 file = "mods/vista_tv.pw.toml"
-hash = "1eb0831a52d9641ec72ffc67d4f11f27e6d831577bfe731574a548a0c7feafaf"
+hash = "167c16e1d09550312d8b5d4b9cd672148c3ef0fb86f436bbe4c2aad4a292fa2b"
 metafile = true
 
 [[files]]
@@ -16269,4 +16350,4 @@ metafile = true
 
 [[files]]
 file = "unsup.toml"
-hash = "146a6ead40e1c807c76df093c0554836b32166497eae4182b5d2a968d76bfc73"
+hash = "cb6d8a0c74758d5f77199ea3971f4d17ab1f0fb9fc8a59c84eb96ce8ad77a21c"

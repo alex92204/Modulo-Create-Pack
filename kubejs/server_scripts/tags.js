@@ -13,8 +13,9 @@ ServerEvents.tags('item', event => {
     event.add('moddedulo:catwalks', [/dndecor:.*_catwalk/])
     event.add('moddedulo:statues', ['minecraft:armor_stand', 'strawstatues:straw_statue'])
     event.add('moddedulo:frontlights', /dndecor:.*_frontlight/)
+    event.add('moddedulo:copycats', /(copycats:.*|create:copycat.*|railways:copycat.*)/)
     event.add('dndecor:industrial_cogwheels', 'dndecor:industrial_cogwheel')
-
+    event.add('sophisticatedbackpacks:upgrade', 'sophisticatedbackpacks:upgrade_base')
     event.add('moddedulo:wooden_cogwheels', ['create:cogwheel', /createcasing:(acacia|birch|bamboo|cherry|crimson|warped|dark_oak|oak|jungle|mangrove)_cogwheel/])
     event.add('moddedulo:large_wooden_cogwheels', ['create:large_cogwheel', /createcasing:(acacia|birch|bamboo|cherry|crimson|warped|dark_oak|oak|jungle|mangrove)_large_cogwheel/])
     
@@ -31,11 +32,11 @@ ServerEvents.tags('item', event => {
     // Removal List
     const removedDeco = [/createdeco:.*(catwalk|hull|shipping_container|bars_overlay|sheet_metal|copper_bars|copper_window.*|zinc_window.*)$/]
     const removedAdvancedperipherals = [/advancedperipherals:.*(_automata_core|memory_card|computer_tool|peripheral_casing|geo_scanner|me_bridge|rs_bridge|energy_detector|inventory_manager|colony_integrator|chunk_controller)$/]
-    const removedSophisticated = Ingredient.of(/sophisticated.*/).except(/sophisticatedbackpacks:(.*backpack|.*pickup.*|.*filter.*|.*refill.*|.*starter.*|.*tier_.|.*tool_swapper.*|upgrade_base)$/).itemIds
+    const removedSophisticated = [/sophisticatedbackpacks:.*(auto.*|battery|deposit|restock|everlasting|feeding|inception|infinity|jukebox|magnet|mob_catcher|pump|xp_pump|void|tank|alchemy)_upgrade$/]
     const removedSupplementaries = [/supplementaries:.*(crank|cog.*|relayer|speaker.*|bellows|spring.*|turn.*|pulley.*|fodder|.*rope|cage|sack|bamboo_spikes|urn|soap|cannon.*|flax|lumisene.*|.*lamp|.*tile.|.*bunting|feather.*|flint.*|spider_head|barnacles|item_shelf|sugar_cube|planter|.*daub.*|hat_stand|altimeter|quiver|slice_map|bubble_blower|wrench|.*bomb|slingshot)$/]
     const removedEncased = [/createcasing:(.*sheet|refined_radiance|shadow_steel).*/]
     const removedEnchanting = ['create_enchantment_industry:super_enchanting_template', 'create_enchantment_industry:experience_cake_base', 'create_enchantment_industry:experience_cake', 'create_enchantment_industry:experience_cake_slice', 'create_enchantment_industry:super_experience_block', 'create_enchantment_industry:super_experience_nugget']
-    event.add('moddedulo:removed', [removedEnchanting, removedDeco, removedAdvancedperipherals, removedSophisticated, removedSupplementaries, removedEncased, /create_vibrant_vaults:.*shipping_container$/, /copperagebackport:.*button$/, '@kubejs', 'minecraft:copper_nugget', 'horseman:copper_horn'])
+    event.add('moddedulo:removed', [removedEnchanting, removedDeco, removedAdvancedperipherals, removedSophisticated, removedSupplementaries, removedEncased, 'sophisticatedcore:xp_bucket', /create_vibrant_vaults:.*shipping_container$/, /copperagebackport:.*button$/, '@kubejs', 'minecraft:copper_nugget', 'horseman:copper_horn'])
 })
 
 // Block Tags

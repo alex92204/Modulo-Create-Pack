@@ -146,3 +146,5 @@ flavors = "modpack"
 flavors = "modpack"
 [metafile.modefite-item-definition-backport]
 flavors = "modpack"
+[metafile.fusion-connected-textures]
+flavors = "modpack"

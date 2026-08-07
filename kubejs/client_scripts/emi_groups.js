@@ -9,21 +9,21 @@ ClientEvents.generateAssets("after_mods", (event) => {
     function add(mod, name, type, data) {
         let file = `${mod}:stack_groups/${name}`;
         let obj = {
-            type: `emixx:${type}`,
+            type: `remi:${type}`,
         };
 
         if (type === "group") {
-            obj.type = "emixx:group";
+            obj.type = "remi:group";
             obj.contents = data;
         }
 
         if (type === "tag") {
-            obj.type = "emixx:tag";
+            obj.type = "remi:tag";
             obj.tag = data;
         }
 
         if (type === "regex") {
-            obj.type = "emixx:group";
+            obj.type = "remi:group";
             obj.contents = Ingredient.of(new RegExp(data)).itemIds.toArray();
         }
 
@@ -103,8 +103,8 @@ ClientEvents.generateAssets("after_mods", (event) => {
     add("moddedulo", "handles", "group", 
         ['simulated:iron_handle', 'simulated:copper_handle', 'simulated:white_handle', 'simulated:orange_handle', 'simulated:magenta_handle', 'simulated:light_blue_handle', 'simulated:lime_handle', 'simulated:yellow_handle', 'simulated:pink_handle', 'simulated:gray_handle', 'simulated:cyan_handle', 'simulated:purple_handle', 'simulated:light_gray_handle', 'simulated:blue_handle', 'simulated:brown_handle', 'simulated:green_handle', 'simulated:red_handle', 'simulated:black_handle']
     );
-    add("moddedulo", "backpack_upgrades", "group",
-        ['sophisticatedbackpacks:pickup_upgrade', 'sophisticatedbackpacks:advanced_pickup_upgrade', 'sophisticatedbackpacks:filter_upgrade', 'sophisticatedbackpacks:advanced_filter_upgrade', 'sophisticatedbackpacks:restock_upgrade', 'sophisticatedbackpacks:advanced_restock_upgrade', 'sophisticatedbackpacks:deposit_upgrade', 'sophisticatedbackpacks:advanced_deposit_upgrade', 'sophisticatedbackpacks:refill_upgrade', 'sophisticatedbackpacks:advanced_refill_upgrade', 'sophisticatedbackpacks:stack_upgrade_starter_tier', 'sophisticatedbackpacks:stack_upgrade_tier_1', 'sophisticatedbackpacks:stack_upgrade_tier_2', 'sophisticatedbackpacks:stack_upgrade_tier_3', 'sophisticatedbackpacks:stack_upgrade_tier_4', 'sophisticatedbackpacks:stack_downgrade_tier_1', 'sophisticatedbackpacks:stack_downgrade_tier_2', 'sophisticatedbackpacks:stack_downgrade_tier_3', 'sophisticatedbackpacks:tool_swapper_upgrade', 'sophisticatedbackpacks:advanced_tool_swapper_upgrade', 'sophisticatedbackpacks:upgrade_base']
+    add("moddedulo", "backpack_upgrades", "tag",
+        'sophisticatedbackpacks:upgrade'
     );
     add("moddedulo", "backpacks", "group", 
         ['sophisticatedbackpacks:netherite_backpack', 'sophisticatedbackpacks:diamond_backpack', 'sophisticatedbackpacks:gold_backpack', 'sophisticatedbackpacks:iron_backpack', 'sophisticatedbackpacks:copper_backpack', 'sophisticatedbackpacks:backpack']
