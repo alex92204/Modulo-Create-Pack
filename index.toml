@@ -962,7 +962,7 @@ hash = "2ea5e3b499da18b756a36964da738c530b2bca6362081ffa4064076d26d87c1a"
 
 [[files]]
 file = "configureddefaults/config/voxyworldgenv2.json"
-hash = "f055d8ea66dc78a29ce6a4f5e975b495831eeae19ffb51b86c34ae879b12ae87"
+hash = "7c8b8b4f1fa12fba7bc27f073e7bfa3ccbe7dbf1f85a38c977c78e88a10f8d60"
 
 [[files]]
 file = "configureddefaults/config/yacl.json5"
