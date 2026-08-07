@@ -49,6 +49,10 @@ file = "config/scholar-common.toml"
 hash = "b0a391c77f1f6682d951c7aee9586d76b3fd187ab69c3fac12a72b26ac0958d7"
 
 [[files]]
+file = "config/simplefog.json"
+hash = "24dbd21f0c49e3a5f4ddb135b915560951e670ca334c397c210c9b00dbad90fd"
+
+[[files]]
 file = "config/vanillabackport-client.toml"
 hash = "39c8f98a592ceb9de55b815b3cfbf38567c1a8ea45336ee25e67131a407967b9"
 
@@ -987,6 +991,14 @@ hash = "7a93b72ab804029e9a9c7daf31995448b321fcf8d1ad100de74be552e9200da0"
 [[files]]
 file = "configureddefaults/shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3.txt"
 hash = "867a0b9b57667a21fb7e7c15c8fa5411689a4c6c8582653c037a2797ce16b471"
+
+[[files]]
+file = "configureddefaults/simplefog.json"
+hash = "24dbd21f0c49e3a5f4ddb135b915560951e670ca334c397c210c9b00dbad90fd"
+
+[[files]]
+file = "configureddefaults/voxy_server_lod-common.toml"
+hash = "79f3cac4169c30e8d9a7af0d79e3aecdb10dde5dfaacfe0c450230130811c033"
 
 [[files]]
 file = "emi.json"
@@ -16280,13 +16292,13 @@ hash = "167c16e1d09550312d8b5d4b9cd672148c3ef0fb86f436bbe4c2aad4a292fa2b"
 metafile = true
 
 [[files]]
-file = "mods/voxy-make-it-compatible.pw.toml"
-hash = "e5e2bb81d842dd5ca20d1b0919acf74e9013ab80157a572c1cb861ee4f626adc"
+file = "mods/voxy-auto-lod.pw.toml"
+hash = "81585f71a47e15cc50bb5357051edfb62b7c41676ddd2969f43aa5c4cbe12a0f"
 metafile = true
 
 [[files]]
-file = "mods/voxy-worldgen.pw.toml"
-hash = "4dc7ca394d9af476c427146c0019f533300035f005348f60b14ead2eb0b2de09"
+file = "mods/voxy-make-it-compatible.pw.toml"
+hash = "e5e2bb81d842dd5ca20d1b0919acf74e9013ab80157a572c1cb861ee4f626adc"
 metafile = true
 
 [[files]]
