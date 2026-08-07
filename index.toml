@@ -953,6 +953,18 @@ file = "configureddefaults/config/voicechat/voicechat-volumes.properties"
 hash = "58242ef3075b166845e0081281b01113a55b9d095104a68b167e7b4bc08b87c5"
 
 [[files]]
+file = "configureddefaults/config/voxy-client.toml"
+hash = "c423ee635064f35ec57ad667478f0d0afd2a7e0fa6affddb14ac0906565e6575"
+
+[[files]]
+file = "configureddefaults/config/voxy-config.json"
+hash = "2ea5e3b499da18b756a36964da738c530b2bca6362081ffa4064076d26d87c1a"
+
+[[files]]
+file = "configureddefaults/config/voxyworldgenv2.json"
+hash = "f055d8ea66dc78a29ce6a4f5e975b495831eeae19ffb51b86c34ae879b12ae87"
+
+[[files]]
 file = "configureddefaults/config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
@@ -967,6 +979,10 @@ hash = "618add51cfbf0476e636ab9da18eeb80b04511739952a0009f41d7e42a4aaec9"
 [[files]]
 file = "configureddefaults/mods/CrashAssistant-neoforge-1.20.6-1.21.4-1.11.11.jar"
 hash = "db1c4fe176bec97268cfed87488c2040f408dbdf024b5173847ed1e39b0f2dd6"
+
+[[files]]
+file = "configureddefaults/mods/voxy-1.0.0.jar"
+hash = "7a93b72ab804029e9a9c7daf31995448b321fcf8d1ad100de74be552e9200da0"
 
 [[files]]
 file = "configureddefaults/shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3.txt"
@@ -15540,7 +15556,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "4af9fc32bba8060a176313171653d52e8e4f54048413f70efed1b4c51b337ccc"
+hash = "bfd4208c127ab715252e2bb3901a87fb2f0e4e98267a0ca883ea2c4769cd69ee"
 metafile = true
 
 [[files]]
@@ -15784,11 +15800,6 @@ hash = "b567ae5fa0c5eb4a5021a1fe679f20315ec5081b08119763deb63b52f6b6e8eb"
 metafile = true
 
 [[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "87e9637f02d5660fde865376c1928ce66cdfdd2fd9a252e973c7343c6701988f"
-metafile = true
-
-[[files]]
 file = "mods/dragonlib.pw.toml"
 hash = "9e8c1a7546d8372110cb3093ca8cb519b8c7e12f872389640d4f4cc2a360eeb1"
 metafile = true
@@ -15876,6 +15887,11 @@ metafile = true
 [[files]]
 file = "mods/flerovium.pw.toml"
 hash = "c8eda7c86deb3e5246c10419d57292e8e11b8769110e1159bdf6fda36713ed2a"
+metafile = true
+
+[[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "e116aa35a3b573e487213bd44b82ee133e823829a7d90cd990f3766c7997cff3"
 metafile = true
 
 [[files]]
@@ -16205,7 +16221,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "a2853dd0347aae8d7354abd261bcb099098b714e6bc0d0403edf075d68000add"
+hash = "29c51a84bf7410c9a8a30bc2331c5f255253877223d7662bd439f9d363806a77"
 metafile = true
 
 [[files]]
@@ -16231,11 +16247,6 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "f6b922752736741e222dead919491a7b59946c7424ac3b87d0ceae3f0144e149"
-metafile = true
-
-[[files]]
-file = "mods/ssrd.pw.toml"
-hash = "a824c848473eab657ae4c3fcee448b513b72ce7ff87fe5a131864565e79d8f2b"
 metafile = true
 
 [[files]]
@@ -16266,6 +16277,16 @@ metafile = true
 [[files]]
 file = "mods/vista_tv.pw.toml"
 hash = "167c16e1d09550312d8b5d4b9cd672148c3ef0fb86f436bbe4c2aad4a292fa2b"
+metafile = true
+
+[[files]]
+file = "mods/voxy-make-it-compatible.pw.toml"
+hash = "e5e2bb81d842dd5ca20d1b0919acf74e9013ab80157a572c1cb861ee4f626adc"
+metafile = true
+
+[[files]]
+file = "mods/voxy-worldgen.pw.toml"
+hash = "8d4e2cccf41303aba50e9e2a945bdf314c2e1027f1885cf08a97048eee37d40f"
 metafile = true
 
 [[files]]
@@ -16350,4 +16371,4 @@ metafile = true
 
 [[files]]
 file = "unsup.toml"
-hash = "cb6d8a0c74758d5f77199ea3971f4d17ab1f0fb9fc8a59c84eb96ce8ad77a21c"
+hash = "f722f5ef26b4d6eb9f840caf057cfb7e8b8e2fe8a2636c1fb061b17ff114ea1e"

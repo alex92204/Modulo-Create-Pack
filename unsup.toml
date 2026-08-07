@@ -148,3 +148,5 @@ flavors = "modpack"
 flavors = "modpack"
 [metafile.fusion-connected-textures]
 flavors = "modpack"
+[metafile."configureddefaults/mods/voxy-1.0.0.jar"]
+flavors = "modpack"
