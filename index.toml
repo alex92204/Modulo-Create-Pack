@@ -16292,13 +16292,13 @@ hash = "167c16e1d09550312d8b5d4b9cd672148c3ef0fb86f436bbe4c2aad4a292fa2b"
 metafile = true
 
 [[files]]
-file = "mods/voxy-auto-lod.pw.toml"
-hash = "81585f71a47e15cc50bb5357051edfb62b7c41676ddd2969f43aa5c4cbe12a0f"
+file = "mods/voxy-make-it-compatible.pw.toml"
+hash = "e5e2bb81d842dd5ca20d1b0919acf74e9013ab80157a572c1cb861ee4f626adc"
 metafile = true
 
 [[files]]
-file = "mods/voxy-make-it-compatible.pw.toml"
-hash = "e5e2bb81d842dd5ca20d1b0919acf74e9013ab80157a572c1cb861ee4f626adc"
+file = "mods/voxy-server-side-forge-neoforge.pw.toml"
+hash = "94aa9d8b81a958ca9c1f239606b91fe84547aed899d580ccefd9cdba76fa7edf"
 metafile = true
 
 [[files]]
