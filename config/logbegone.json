@@ -38,7 +38,9 @@
       "teal",
       "Cloudiness changed, updating geometry",
       "dndecor:blockstates/text_plate.json",
-      "SableUDPPacket SNAPSHOT (ClientboundSableSnapshotDualPacket) was larger than expected, found 27 bytes extra"
+      "SableUDPPacket SNAPSHOT (ClientboundSableSnapshotDualPacket) was larger than expected, found 27 bytes extra",
+      "Chunk not in map",
+      "Not creating a leaf request with existence mask of 0 at pos"
     ],
     "regex": [
       "Disconnecting VANILLA connection attempt",
